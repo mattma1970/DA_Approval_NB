@@ -1,0 +1,75 @@
+# Golden set v1 — Northern Beaches Council
+# Design doc: DA-decision-support-design.md §11.2 (30-case bootstrap, 20/10 split)
+# and Appendix D (LGA-specific strata). No archive access — public-sources build.
+
+name: nbc-golden-set-v1
+total: 30
+splits:
+  calibration: 20    # used throughout the build: rule/prompt/threshold calibration, regression before ship
+  holdout: 10        # sealed; consumed once at Phase 3 exit as go/no-go; re-sealed afterwards
+holdout_outcome_mix: { approved: 3, conditional: 3, refused: 4 }
+
+population:
+  authority: "Northern Beaches"          # CouncilName in Online DA Data API
+  lodged_since: "2019-01-01"             # portal coverage begins Jan 2019 (abstract says 2018-12-10)
+  determined_since: "2019-06-01"
+  include_statuses: [determined]          # 'Determined' bucket in the API; granted-vs-refused label from determination notice / consent notices
+  exclude_statuses: [withdrawn, additional_information_requested, pending_lodgement, pending_court_appeal]
+  transition_boundary: "2026-07-20"       # draft LEP went to exhibition; determinations on/after this date may cite it
+
+# Strata targets across the 30 (bend to actual base rates; keep every class in BOTH splits where possible)
+strata:
+  dev_class:
+    new_residential: 6
+    addition_alteration: 5
+    subdivision: 4
+    small_commercial_or_change_of_use: 4
+    large_or_complex: 4
+    other: 3
+  outcome:
+    approved: 10
+    conditional: 10
+    refused: 5
+  flags:
+    variation_proposed: { min: 6, of_which_approved: 3 }      # EPI flag in API; council variation register for Pittwater
+    has_submissions: { min: 8 }
+    hazard_or_protected_overlay: { min: 4 }                   # flood / bushfire / heritage / vegetation protection
+    scanned_drawings: { min: 6 }                              # exercises the vision path; rest born-digital
+    foreshore_waterways: { min: 3 }                           # SREP / Foreshores & Waterways DCP area — state-instrument override reasoning
+    former_area_span: { manly: 8, pittwater: 8, warringah: 8 }
+    transition: { post_exhibition: 5, pre_exhibition: 5 }     # both sides of the draft-LEP version boundary
+
+sources:
+  - id: online_da_data_api
+    role: stratification spine (fields: development type, dwelling/storey counts, subdivision, EPI variation, VPA, dates, status)
+    access: request via Data Broker (draft: data/data-broker-email.md); NOT self-serve
+  - id: portal_onlineDA
+    role: per-case pages for NOTIFIED DAs — lodged documents, submissions, determination notice (published <= 14 days)
+  - id: council_development_consents
+    role: monthly approved-consent notices — the local determination register (outcome labels)
+    url: https://www.northernbeaches.nsw.gov.au/planning-and-development/development-applications/development-consents
+  - id: council_variation_register
+    role: variation DAs (Pittwater LEP variation clause) — feeds the variation stratum
+  - id: council_development_activity_reports
+    role: volume/mix baseline for sanity-checking stratum feasibility
+  - id: lec_decisions
+    role: SEPARATE reasoning-quality set (not part of the 30) — contested planning appeals with full judicial reasons
+
+holdout_discipline:
+  - no case ever moves between splits
+  - holdout consumed at most once per phase exit, then re-sealed
+  - a NEW holdout must be drawn from fresh cases whenever the set grows
+  - any change motivated by a holdout observation is validated on the calibration set first
+
+anonymisation:
+  policy: strip PII (names of applicants/owners/objectors, contact details) before cases enter the system (§12 PPIP Act 1998 / GIPA)
+  keep: DA reference, address, lot/plan, outcome, conditions, grounds, dates
+
+workflow:
+  1. build candidate population (sources above) with outcome labels
+  2. stratified sample against targets (harvest/sample.py)
+  3. human review of the candidate list (confirm strata coverage, drop unusable cases)
+  4. download packages for notified DAs; for non-notified, record available public documents
+  5. anonymise, split, and seal the holdout (holdout/ written once, read-only thereafter)
+
+status: awaiting Data Broker response and harvester prototype (Phase 0)

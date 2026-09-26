@@ -1,0 +1,248 @@
+{
+ "run": "/home/mattma/Da approval/da-tool/mvp/runs/20260926-023900",
+ "cases": [
+  {
+   "case_id": "ff-g-rfb-compliant",
+   "findings": [
+    {
+     "key": "lut_r3",
+     "expected": "permitted_with_consent",
+     "model": "permitted_with_consent",
+     "det_score": 1.0,
+     "cite_score": 0.0,
+     "score": 0.6,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_4",
+     "expected": "compliant",
+     "model": "compliant",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_6",
+     "expected": "compliant",
+     "model": "compliant",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_7",
+     "expected": "compliant",
+     "model": "compliant",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_5_4",
+     "expected": "compliant",
+     "model": "design_review_required",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_5_design",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_3",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_4",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_8",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_11",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_6",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    }
+   ],
+   "expected_outcome": "no_refusal_ground",
+   "model_outcome": "referral_required",
+   "outcome_ok": false,
+   "expected_grounds": [],
+   "expected_ground_refs": [],
+   "model_grounds": [],
+   "grounds_missing": [],
+   "grounds_extra": [],
+   "grounds_ok": true,
+   "additional": [],
+   "case_score": 0.564,
+   "usd": 0.0008139
+  },
+  {
+   "case_id": "ff-g-rfb-bulk-breach",
+   "findings": [
+    {
+     "key": "lut_r3",
+     "expected": "permitted_with_consent",
+     "model": "permitted_with_consent",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_4",
+     "expected": "precondition_not_met",
+     "model": "precondition_not_met",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_6",
+     "expected": "contravention",
+     "model": "contravention",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_7",
+     "expected": "compliant",
+     "model": "compliant",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_5_4",
+     "expected": "design_review_required",
+     "model": "design_review_required",
+     "det_score": 1.0,
+     "cite_score": 0.0,
+     "score": 0.6,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_5_design",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_3",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_4",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_8",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s8_11",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    },
+    {
+     "key": "s4_6",
+     "expected": "not_applicable",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0,
+     "self_inconsistent": false
+    }
+   ],
+   "expected_outcome": "refused",
+   "model_outcome": "refused",
+   "outcome_ok": true,
+   "expected_grounds": [
+    "s8_4",
+    "s8_6"
+   ],
+   "expected_ground_refs": [
+    "8.4",
+    "8.6"
+   ],
+   "model_grounds": [
+    "8.4",
+    "8.6"
+   ],
+   "grounds_missing": [],
+   "grounds_extra": [],
+   "grounds_ok": true,
+   "additional": [],
+   "case_score": 0.655,
+   "usd": 0.00082504
+  }
+ ],
+ "avg_case_score": 0.609,
+ "outcome_acc": 0.5
+}

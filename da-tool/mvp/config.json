@@ -1,0 +1,25 @@
+{
+  "kb_dir": "../kb",
+  "providers": {
+    "openrouter": {
+      "api_base": "https://openrouter.ai/api/v1",
+      "env_file": ".env",
+      "default_model": "google/gemma-3-27b-it",
+      "alternates": {
+        "strongest_cheap": "meta-llama/llama-3.3-70b-instruct",
+        "fast_weak": "meta-llama/llama-3.1-8b-instruct",
+        "gpt": "openai/gpt-4o-mini"
+      }
+    },
+    "local_gguf": {
+      "note": "CPU llama.cpp path. The Qwen3.8-27B GGUF in the HF cache is the model the agent authoring this code runs on; it must NOT be used as the model under test (circular). A local gate should use a different model, e.g. an unsloth Gemma-3-27B or Llama-3.1-8B GGUF.",
+      "hf_cache": "/home/mattma/.cache/huggingface/hub",
+      "excluded_models": ["Qwen3.8-27B"],
+      "n_ctx": 16384,
+      "n_threads": 16
+    }
+  },
+  "cost_budget_usd": 4.0,
+  "max_retries": 2,
+  "temperature": 0.0
+}

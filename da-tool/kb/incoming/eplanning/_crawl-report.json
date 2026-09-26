@@ -1,0 +1,97 @@
+{
+ "DCP": {
+  "exhibit": "DCP",
+  "n_landing_links": 8,
+  "n_pages_fetched": 189,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 28916896,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "DCP",
+  "cover_text": "Warringah Development Control Plan Adopted by Council: 8 June 2010 Came into effect: 9 December 2011 WARRINGAH DCP - AMENDMENT SCHEDULE Amend No. EDMS Approved by Council Commenced Overview of amendment 1 PEX2010/0001 22/02/2011 \u00a009/12/2011 Part E11 \u2013 Flood Prone Land Change to flood related development controls for low risk areas (above the FPL of ARI 1:100) to remove these for residential development. 2 PEX2011/0002 22/05/2012 \u00a009/06/2012 G5 - Freshwater Village controls are specific to the Freshwater Village area.\u00a0 3 PEX2012/0012 26/02/2013 \u00a021/03/2013 Part C3(A) - Bicycle Parking and End o"
+ },
+ "MLEP": {
+  "exhibit": "MLEP",
+  "n_landing_links": 13,
+  "n_pages_fetched": 103,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 15835902,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "ManlyLEP",
+  "cover_text": "Manly Local Environmental Plan 2013"
+ },
+ "PLEP": {
+  "exhibit": "PLEP",
+  "n_landing_links": 10,
+  "n_pages_fetched": 124,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 19076391,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "PittwaterLEP",
+  "cover_text": "Pittwater Local Environmental Plan 2014 NSW Legislation"
+ },
+ "WLEP": {
+  "exhibit": "WLEP",
+  "n_landing_links": 0,
+  "n_pages_fetched": 0,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 0,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "Icon Software Administration"
+ },
+ "MDCP": {
+  "exhibit": "MDCP",
+  "n_landing_links": 6,
+  "n_pages_fetched": 156,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 23881205,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "ManlyDCP",
+  "cover_text": "Manly Development Control Plan"
+ },
+ "PDCP": {
+  "exhibit": "PDCP",
+  "n_landing_links": 6,
+  "n_pages_fetched": 495,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 78415616,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "PittwaterDCP",
+  "cover_text": "Pittwater 21 Development Control Plan"
+ },
+ "LEPDCP": {
+  "exhibit": "LEPDCP",
+  "n_landing_links": 17,
+  "n_pages_fetched": 160,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 25525325,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "LEP and DCP",
+  "cover_text": "Warringah Local Environmental Plan 2011 I, the Minister for Planning and Infrastructure, pursuant to section 33A of the Environmental Planning and Assessment Act 1979 , adopt the mandatory provisions of the Standard Instrument (Local Environmental Plans) Order 2006 and prescribe matters required or permitted by that Order so as to make a local environmental plan as follows. (S07/01903-1) TOM GELLIBRAND As delegate for the Minister for Planning and Infrastructure"
+ },
+ "ALLDCPLEP": {
+  "exhibit": "ALLDCPLEP",
+  "n_landing_links": 17,
+  "n_pages_fetched": 160,
+  "n_failed": 0,
+  "failures": [],
+  "total_bytes": 28315822,
+  "landing_failed": null,
+  "unfinished_queue": 0,
+  "landing_title": "Council Planning Instruments",
+  "cover_text": "Warringah Local Environmental Plan 2011 I, the Minister for Planning and Infrastructure, pursuant to section 33A of the Environmental Planning and Assessment Act 1979 , adopt the mandatory provisions of the Standard Instrument (Local Environmental Plans) Order 2006 and prescribe matters required or permitted by that Order so as to make a local environmental plan as follows. (S07/01903-1) TOM GELLIBRAND As delegate for the Minister for Planning and Infrastructure"
+ }
+}

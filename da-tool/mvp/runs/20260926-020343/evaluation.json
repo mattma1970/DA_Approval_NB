@@ -1,0 +1,120 @@
+{
+ "run": "/home/mattma/Da approval/da-tool/mvp/runs/20260926-020343",
+ "cases": [
+  {
+   "case_id": "ff-g-rfb-bulk-breach",
+   "findings": [
+    {
+     "key": "lut_r3",
+     "expected": "permitted_with_consent",
+     "model": "compliant",
+     "det_score": 0.5,
+     "cite_score": 0.5,
+     "score": 0.5
+    },
+    {
+     "key": "s8_4",
+     "expected": "precondition_not_met",
+     "model": "contravention",
+     "det_score": 0.5,
+     "cite_score": 0.0,
+     "score": 0.3
+    },
+    {
+     "key": "s8_6",
+     "expected": "contravention",
+     "model": "contravention",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8
+    },
+    {
+     "key": "s8_7",
+     "expected": "compliant",
+     "model": "compliant",
+     "det_score": 1.0,
+     "cite_score": 0.5,
+     "score": 0.8
+    },
+    {
+     "key": "s8_5_4",
+     "expected": "design_review_required",
+     "model": "design_review_required",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0
+    },
+    {
+     "key": "s8_5_design",
+     "expected": "indeterminate",
+     "model": "<not reported>",
+     "det_score": 0.0,
+     "cite_score": 0.0,
+     "score": 0.0
+    },
+    {
+     "key": "s4_3",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0
+    },
+    {
+     "key": "s4_4",
+     "expected": "indeterminate",
+     "model": "indeterminate",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0
+    },
+    {
+     "key": "s8_8",
+     "expected": "not_applicable",
+     "model": "not_applicable",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0
+    },
+    {
+     "key": "s8_11",
+     "expected": "not_applicable",
+     "model": "not_applicable",
+     "det_score": 1.0,
+     "cite_score": 0.0,
+     "score": 0.6
+    },
+    {
+     "key": "s4_6",
+     "expected": "not_applicable",
+     "model": "not_applicable",
+     "det_score": 1.0,
+     "cite_score": 1.0,
+     "score": 1.0
+    }
+   ],
+   "expected_outcome": "refused",
+   "model_outcome": "refused",
+   "outcome_ok": true,
+   "expected_grounds": [
+    "s8_4",
+    "s8_6"
+   ],
+   "model_grounds": [
+    "8.4",
+    "8.6"
+   ],
+   "grounds_ok": false,
+   "additional": [
+    {
+     "provision": "8.1",
+     "determination": "not_applicable"
+    }
+   ],
+   "case_score": 0.727,
+   "usd": 0.0010866399999999998
+  }
+ ],
+ "avg_case_score": 0.727,
+ "outcome_acc": 1.0
+}

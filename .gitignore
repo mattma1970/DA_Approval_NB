@@ -1,0 +1,26 @@
+# virtualenvs (rebuild: see da-tool/requirements.txt + requirements-harvest.txt)
+.venv/
+.venv-harvest/
+da-tool/.venv/
+da-tool/.venv-harvest/
+
+# python build artifacts
+__pycache__/
+*.pyc
+
+# secrets & per-machine state (never commit)
+da-tool/mvp/.env
+da-tool/mvp/.pricing-cache.json
+da-tool/mvp/spend.json
+
+# raw data (~1 GB) — kept on disk as frozen local artifacts, not versioned.
+# Reproducible outputs are kb/provisions/*.json; the provenance JSON
+# manifests below stay tracked. Re-crawl/re-download via harvest/ (backlog #2).
+da-tool/kb/incoming/*
+!da-tool/kb/incoming/*.json
+!da-tool/kb/incoming/eplanning/
+da-tool/kb/incoming/eplanning/*
+!da-tool/kb/incoming/eplanning/*.json
+
+# scratch
+:memory:.ses/

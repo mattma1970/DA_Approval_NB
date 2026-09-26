@@ -1,0 +1,94 @@
+{
+  "foreshores-waterways-dcp-2005": {
+    "target": "Sydney Harbour Foreshores and Waterways Area Development Control Plan 2005 (full text; the pre-existing foreshores-waterways-dcp-2005.pdf in this folder is a 85-page/1.6 MB partial scan)",
+    "result": "SUCCESS",
+    "saved_as": "kb/incoming/foreshores-waterways-dcp-2005-FULL.pdf",
+    "verification": "PDF 1.6, 122 pages, 60,141,694 bytes; cover page reads 'SYDNEY HARBOUR FORESHORES & WATERWAYS AREA DCP FOR SREP (SYDNEY HARBOUR CATCHMENT) 2005', NSW Department of Planning, publication no. P05, ISBN 0-7347-546..; scanned (KODAK Capture, 2022 DPIE scan project)",
+    "attempts": [
+      {
+        "step": 1,
+        "source": "DPIE eLibrary (JSPUI) handle page",
+        "url": "https://nswdpe.intersearch.com.au/nswdpejspui/handle/1/9004",
+        "outcome": "HTTP 200. Record title 'Sydney Harbour foreshores and waterways area : development control plan : 2005'. One bitstream: /nswdpejspui/bitstream/1/9004/1/Sydney Harbour Foreshores and Waterways Area Development Control Plan 2005.pdf"
+      },
+      {
+        "step": 2,
+        "source": "DPIE eLibrary bitstream, plain GET",
+        "url": "https://nswdpe.intersearch.com.au/nswdpejspui/bitstream/1/9004/1/Sydney%20Harbour%20Foreshores%20and%20Waterways%20Area%20Development%20Control%20Plan%202005.pdf",
+        "outcome": "HTTP 200 but 297-byte HTML JS-challenge page ('/.fast_challenge/dspace6_bitstream_index.js' sets cookie DSPACE_INIT=1 and reloads) - anti-bot, trivially emulatable, not a paywall"
+      },
+      {
+        "step": 3,
+        "source": "DPIE eLibrary bitstream with emulated DSPACE_INIT=1 cookie + Referer from handle page",
+        "url": "same as step 2",
+        "outcome": "HTTP 200, 60,142,061 bytes, but payload is wrapped in a multipart/form-data envelope (boundary 1ccc134c6acec7d0; Content-Disposition filename '/mnt/conversions/nswdpe/20220727_1_DPIE 4 Parramatta Square (128 boxes)//Scanned Files/Box 74/Sydney Harbour Foreshores and Waterways Area Development Control Plan 2005.pdf'); inner %PDF..%%EOF extracted (60,141,694 bytes) and verified 122 pp"
+      },
+      {
+        "step": 4,
+        "source": "FAOLEX",
+        "url": "https://faolex.fao.org/ (redirects to https://www.fao.org/faolex/en)",
+        "outcome": "NOT ATTEMPTED FOR THIS DOCUMENT - full 122-page original obtained at step 3 from the official DPIE archive scan, which supersedes any FAOLEX copy. Note: www.fao.org/faolex currently returns HTTP 403 'Just a moment...' (Cloudflare JS challenge) to non-browser clients, so FAOLEX would have required bypassing an access control - declined per task constraints."
+      }
+    ]
+  },
+  "srep-2005": {
+    "target": "Sydney Regional Environmental Plan (Sydney Harbour Catchment) 2005 - full instrument (commonly 'SREP 2005'; epi-2005-0590; made 28 Sep 2005, Gazette No 119 p.7598; repealed 28 Feb 2022)",
+    "result": "PARTIAL - full official TEXT obtained (Ldds XML exports of the final version); official PDF layout NOT obtained (host legislation.nsw.gov.au returns 403 and was not retried per instruction); all 78 official accompanying maps obtained",
+    "saved_as": [
+      "kb/incoming/srep-2005-xml-current-20220120-wb.xml (550,239 B - final version, valid from 2021-11-26, last consol. amendment epi-2021-0716; Parts 1-7, Schedules 1/3/4, 79 clauses, cover-data 'Deemed SEPP' note; captured from legislation.nsw.gov.au/export/xml/current/epi-2005-0590 via Wayback snapshot 2022-01-20, i.e. while still in force)",
+      "kb/incoming/srep-2005-xml-v2021-10-30-wb.xml (562,757 B - previous version, valid 2021-10-30 to 2021-11-26, via Wayback snapshot 2022-01-20)",
+      "kb/incoming/srep-maps/ (78 official map PDFs + Data Quality Statement, from DPE blob store) - see srep-maps-index.json"
+    ],
+    "attempts": [
+      {
+        "step": 1,
+        "source": "DPIE eLibrary (JSPUI) simple-search: 'Sydney Harbour Regional Environmental Plan', 'SREP', 'Regional Environmental Plan Harbour', 'Harbour Catchment Regional Environmental'",
+        "url": "https://nswdpe.intersearch.com.au/nswdpejspui/simple-search?query=...",
+        "outcome": "HTTP 200. No SREP 2005 record in eLibrary (results: REP No 20 Hawkesbury-Nepean, REP No 23 Sydney & Middle Harbours, Foreshores DCP 2005, discussion papers). One search returned transient HTTP 503."
+      },
+      {
+        "step": 2,
+        "source": "FAOLEX (faolex.fao.org)",
+        "url": "https://faolex.fao.org/ -> https://www.fao.org/faolex/en",
+        "outcome": "HTTP 403 'Just a moment...' Cloudflare JS challenge on site and all API paths - inaccessible to plain curl; NOT bypassed per task constraints. No SREP 2005 obtained from FAOLEX."
+      },
+      {
+        "step": 3,
+        "source": "NSW Planning Portal publication page (DPE) for the instrument",
+        "url": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+        "outcome": "HTTP 200. Lists 77 official map PDFs (DPE Azure blob store) + links to legislation.nsw.gov.au views. The page's own text is served only via legislation.nsw.gov.au (403 - not retried)."
+      },
+      {
+        "step": 4,
+        "source": "DPE Azure blob store probes for a consolidated instrument PDF",
+        "url": "https://eplanningdlprod.blob.core.windows.net/pdf/epi-2005-0590.pdf (404), /pdfmaps/epi-2005-0590.pdf (404), /pdfmaps/sydney-harbour-catchment-sydney-regional-environmental-plan-2005.pdf (200: 16-pp June 2004 pre-Gazette PREAMBLE draft only, internal name '05_027_REP_Preamble-draft 1-b.indd', DIPNR 04_111, ISBN 0-7347-5473-6)",
+        "outcome": "No full instrument PDF in the blob store; preamble-only print draft recovered (kept in /tmp probe; the 78 maps were downloaded instead - see srep-maps/)."
+      },
+      {
+        "step": 5,
+        "source": "Wayback Machine CDX for legislation.nsw.gov.au epi-2005-0590",
+        "url": "http://web.archive.org/cdx/search/cdx?url=legislation.nsw.gov.au&matchType=domain&filter=original:.*epi-2005-0590.*",
+        "outcome": "No archived /view/pdf/ snapshots, but 15+ archived /export/xml/<date-or-current>/epi-2005-0590 snapshots spanning the whole version history (2005-09-28 .. 2021-11-26 + current)"
+      },
+      {
+        "step": 6,
+        "source": "Wayback snapshots of the Ldds XML export (official NSW Parliamentary Counsel export format)",
+        "url": "https://web.archive.org/web/20220120232918/https://legislation.nsw.gov.au/export/xml/current/epi-2005-0590 ; https://web.archive.org/web/20220120230219/https://legislation.nsw.gov.au/export/xml/2021-10-30/epi-2005-0590 (the 2021-11-26-dated snapshot at 20240226185145 returned 404, but 'current' captured 2022-01-20 is exactly the 2021-11-26 version)",
+        "outcome": "HTTP 200 both. Full instrument text as it stood immediately before repeal: Parts 1-7, Schedules 1/3/4, 79 clauses, metadata (enabling act EP&A Act 1979; published Gazette No 119 of 28 Sep 2005 p.7598; last consol. amendment epi-2021-0716; 'in force: allinforce' at capture). Saved to kb/incoming/."
+      },
+      {
+        "step": 7,
+        "source": "archive.org full-text search for the 2005 printed instrument",
+        "url": "https://archive.org/advancedsearch.php?q=\"Sydney Regional Environmental Plan\" \"Harbour Catchment\"",
+        "outcome": "No uploads found."
+      },
+      {
+        "step": 8,
+        "source": "NSW Planning Portal open-data (CKAN) dataset 'Repealed - Sydney Regional Environmental Plan (Sydney Harbour Catchment) 2005'",
+        "url": "https://www.planningportal.nsw.gov.au/opendata/dataset/sydney-regional-environmental-plan-2005",
+        "outcome": "Dataset exists (superseded per DPE note by SEPP (Biodiversity & Conservation) 2021 consolidation) but its only resource is the Data Quality Statement PDF (downloaded, 6 pp) - not the instrument text."
+      }
+    ],
+    "maps_note": "All 78 map PDFs listed on the planningportal page (catchment map 2016 14.6 MB, 16 zoning sheets, 16 wetlands sheets, foreshores & waterways sheets 2005+2016, heritage 2016, strategic foreshore sites, special purposes site maps, opera house buffers etc.) downloaded to kb/incoming/srep-maps/ - see srep-maps-index.json for per-file sizes/pages."
+  }
+}

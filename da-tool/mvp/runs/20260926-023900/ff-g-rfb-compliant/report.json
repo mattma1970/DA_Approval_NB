@@ -1,0 +1,174 @@
+{
+ "case_id": "ff-g-rfb-compliant",
+ "model": "meta-llama/llama-3.3-70b-instruct",
+ "ms": 96385,
+ "usd": 0.0008139,
+ "in_tokens": 5227,
+ "out_tokens": 910,
+ "attempts": 1,
+ "llm_error": null,
+ "raw": "```json\n{\n  \"findings\": [\n    {\n      \"provision\": \"LUT-R3\",\n      \"determination\": \"permitted_with_consent\",\n      \"quote\": \"Residential flat buildings;... Multi dwelling housing\",\n      \"reasoning\": \"The proposed use, Residential flat building, is listed in the with-consent column of the Land Use Table for the R3 Medium Density Residential zone.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"provision\": \"4.3\",\n      \"determination\": \"indeterminate\",\n      \"quote\": \"The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.\",\n      \"reasoning\": \"The Height of Buildings Map is not included in this record, so the maximum height for the site cannot be determined.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"provision\": \"4.4\",\n      \"determination\": \"indeterminate\",\n      \"quote\": \"The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.\",\n      \"reasoning\": \"The Floor Space Ratio Map is not included in this record, so the maximum floor space ratio for the site cannot be determined.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"provision\": \"8.4\",\n      \"determination\": \"compliant\",\n      \"quote\": \"Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land\",\n      \"reasoning\": \"A site-specific development control plan is present for the site, as stated in the case record.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"provision\": \"8.5(1)-(3)\",\n      \"determination\": \"indeterminate\",\n      \"quote\": \"Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.\",\n      \"reasoning\": \"The assessment of design excellence requires a qualitative judgment that cannot be made based on the information provided in the case record.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"provision\": \"8.5(4)-(5)\",\n      \"determination\": \"design_review_required\",\n      \"quote\": \"Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless a design review panel has reviewed the development\",\n      \"reasoning\": \"The proposed building is 3 storeys high, which triggers the requirement for a design review panel.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"provision\": \"8.6\",\n      \"determination\": \"compliant\",\n      \"quote\": \"Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4\",\n      \"reasoning\": \"The site area (1500 sqm) is greater than the minimum required area for Site G in Zone R3 (1400 sqm).\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"provision\": \"8.7\",\n      \"determination\": \"compliant\",\n      \"quote\": \"Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4\",\n      \"reasoning\": \"The site's street frontage (30m) meets the minimum required frontage for Site G in Zone R3 (30m).\",\n      \"confidence\": \"high\"\n    }\n  ],\n  \"overall\": {\n    \"outcome\": \"referral_required\",\n    \"refusal_grounds\": [],\n    \"summary\": \"The proposed development is permitted with consent in the R3 Medium Density Residential zone. However, the assessment of design excellence and the review of the development by a design review panel are required. The development complies with the minimum site area and street frontage requirements for Site G in Zone R3.\"\n  }\n}\n```",
+ "parsed": {
+  "findings": [
+   {
+    "provision": "LUT-R3",
+    "determination": "permitted_with_consent",
+    "quote": "Residential flat buildings;... Multi dwelling housing",
+    "reasoning": "The proposed use, Residential flat building, is listed in the with-consent column of the Land Use Table for the R3 Medium Density Residential zone.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "4.3",
+    "determination": "indeterminate",
+    "quote": "The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.",
+    "reasoning": "The Height of Buildings Map is not included in this record, so the maximum height for the site cannot be determined.",
+    "confidence": "low",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "4.4",
+    "determination": "indeterminate",
+    "quote": "The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.",
+    "reasoning": "The Floor Space Ratio Map is not included in this record, so the maximum floor space ratio for the site cannot be determined.",
+    "confidence": "low",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.4",
+    "determination": "compliant",
+    "quote": "Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land",
+    "reasoning": "A site-specific development control plan is present for the site, as stated in the case record.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.5(1)-(3)",
+    "determination": "indeterminate",
+    "quote": "Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.",
+    "reasoning": "The assessment of design excellence requires a qualitative judgment that cannot be made based on the information provided in the case record.",
+    "confidence": "low",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.5(4)-(5)",
+    "determination": "design_review_required",
+    "quote": "Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless a design review panel has reviewed the development",
+    "reasoning": "The proposed building is 3 storeys high, which triggers the requirement for a design review panel.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.6",
+    "determination": "compliant",
+    "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4",
+    "reasoning": "The site area (1500 sqm) is greater than the minimum required area for Site G in Zone R3 (1400 sqm).",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.7",
+    "determination": "compliant",
+    "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4",
+    "reasoning": "The site's street frontage (30m) meets the minimum required frontage for Site G in Zone R3 (30m).",
+    "confidence": "high",
+    "self_inconsistent": false
+   }
+  ],
+  "overall": {
+   "outcome": "referral_required",
+   "refusal_grounds": [],
+   "summary": "The proposed development is permitted with consent in the R3 Medium Density Residential zone. However, the assessment of design excellence and the review of the development by a design review panel are required. The development complies with the minimum site area and street frontage requirements for Site G in Zone R3."
+  }
+ },
+ "citation_checks": [
+  {
+   "provision": "LUT-R3",
+   "determination": "permitted_with_consent",
+   "quote": "Residential flat buildings;... Multi dwelling housing",
+   "self_inconsistent": false,
+   "verified": false,
+   "matched_ref": null,
+   "ellipsis_stripped": false,
+   "reason": "no provision contains this quote",
+   "len": 48
+  },
+  {
+   "provision": "4.3",
+   "determination": "indeterminate",
+   "quote": "The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "4.3",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 99
+  },
+  {
+   "provision": "4.4",
+   "determination": "indeterminate",
+   "quote": "The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "4.4",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 116
+  },
+  {
+   "provision": "8.4",
+   "determination": "compliant",
+   "quote": "Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.4",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 133
+  },
+  {
+   "provision": "8.5(1)-(3)",
+   "determination": "indeterminate",
+   "quote": "Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.5(1)-(3)",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 111
+  },
+  {
+   "provision": "8.5(4)-(5)",
+   "determination": "design_review_required",
+   "quote": "Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless a design review panel has reviewed the development",
+   "self_inconsistent": false,
+   "verified": false,
+   "matched_ref": null,
+   "ellipsis_stripped": false,
+   "reason": "no provision contains this quote",
+   "len": 169
+  },
+  {
+   "provision": "8.6",
+   "determination": "compliant",
+   "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.6",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 186
+  },
+  {
+   "provision": "8.7",
+   "determination": "compliant",
+   "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.7",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 207
+  }
+ ]
+}

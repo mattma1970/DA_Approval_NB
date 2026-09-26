@@ -1,0 +1,176 @@
+# Northern Beaches LGA — regulatory instrument profile (machine-readable)
+# Design doc: DA-decision-support-design.md, Appendix D (verified July 2026)
+# Status values: in_force | in_force_deferred | draft_exhibited | unavailable
+# access: how a PDF of this instrument can be obtained (what has been probed, July 2026)
+
+lga:
+  name: Northern Beaches
+  state: NSW
+  authority: Northern Beaches Council
+  website: https://www.northernbeaches.nsw.gov.au
+  portal_council_name: "Northern Beaches"   # CouncilName value in the Online DA Data API
+
+# The LGA is a patchwork of three former LGAs. Actual zone/instrument assignment
+# derives from the LEP zoning maps (GIS) — suburb lists are approximate hints only.
+former_areas:
+  - id: manly
+    name: Former Manly
+    approx_suburbs: [Manly, North Manly, Freshwater, Dee Why, North Narrabeen, Narrabeen, Terringra, Collaroy, Collarwood]
+    lep: manly_lep_2013
+    dcp: manly_dcp_2013
+    state_overrides: [srep_2005, foreshores_waterways_dcp_2005]  # harbour foreshore/waterways
+  - id: pittwater
+    name: Former Pittwater
+    approx_suburbs: [Bridgemain, Elanora, Mungangata, Warratah, Brookvale]   # TBC exact boundary suburbs
+    lep: pittwater_lep_2014
+    dcp: pittwater21_dcp
+    public_registers: [development_variation_register]   # DAs determined with a standard variation
+  - id: warringah
+    name: Former Warringah
+    approx_suburbs: [St Ives, St Ives South, Warriewood]   # TBC exact boundary suburbs
+    lep: warringah_lep_2011
+    dcp: warringah_dcp_2011
+    deferred_matter: { lep: warringah_lep_2000, dcp: warringah_dcp_2000 }
+    local_instruments: [warriewood_valley_water_spec_2001]
+
+instruments:
+  - id: manly_lep_2013
+    name: Manly Local Environmental Plan 2013
+    type: LEP
+    status: in_force
+    areas: [manly]
+    source:
+      official: "https://legislation.nsw.gov.au/view/html/inforce/current/epi-2013-0140"
+      access: blocked_403_cloudflare
+      alternatives:
+        - "ePlanning book exhibit MLEP: https://eservices.northernbeaches.nsw.gov.au/ePlanning/live/pages/plan/book.aspx?exhibit=MLEP (HTTP 200; JS viewer — locate document backend)"
+  - id: pittwater_lep_2014
+    name: Pittwater Local Environmental Plan 2014
+    type: LEP
+    status: in_force
+    areas: [pittwater]
+    source:
+      official: "https://legislation.nsw.gov.au/view/html/inforce/current/epi-2014-0320"
+      access: blocked_403_cloudflare
+      alternatives:
+        - "ePlanning book exhibit PLEP (HTTP 200)"
+  - id: warringah_lep_2011
+    name: Warringah Local Environmental Plan 2011
+    type: LEP
+    status: in_force
+    areas: [warringah]
+    source:
+      official: "https://legislation.nsw.gov.au/view/html/inforce/current/epi-2011-0649"
+      access: blocked_403_cloudflare
+      alternatives:
+        - "ePlanning book exhibit WLEP (HTTP 200)"
+  - id: warringah_lep_2000
+    name: Warringah Local Environmental Plan 2000
+    type: LEP
+    status: in_force_deferred   # applies only to 'deferred matter' land (state deferral from WLEP 2011)
+    areas: [warringah]
+    source:
+      official: "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2000-0690"
+      access: blocked_403_cloudflare
+      alternatives:
+        - "ePlanning book exhibit WLEP may include it"
+  - id: srep_2005
+    name: Sydney Harbour Regional Environmental Plan 2005 (SREP)
+    type: Regional Environmental Plan
+    status: in_force
+    areas: [manly]
+    notes: A regional environmental plan (not a SEPP); overrides local LEP/DCP for the Sydney Harbour catchment foreshore.
+    source:
+      official: "https://legislation.nsw.gov.au/#/view/EPI/2005/590"
+      access: blocked_403_cloudflare
+      alternatives:
+        - "DPIE eLibrary JSPUI (nswdpe.intersearch.com.au/nswdpejspui) — search handle"
+  - id: foreshores_waterways_dcp_2005
+    name: Sydney Harbour Foreshores and Waterways Area Development Control Plan 2005
+    type: state DCP (Planning NSW)
+    status: in_force
+    areas: [manly, pittwater]   # harbour foreshore/waterways spanning the LGA
+    source:
+      downloaded: kb/incoming/foreshores-waterways-dcp-2005.pdf   # 6pp — verify whether summary stub or full
+      full_version: "DPIE eLibrary: https://nswdpe.intersearch.com.au/nswdpejspui/handle/1/9004"
+  - id: manly_dcp_2013
+    name: Manly Development Control Plan 2013 (+ Manly Planning Rules and Associated Documents)
+    type: DCP
+    status: in_force
+    areas: [manly]
+    source:
+      alternatives:
+        - "ePlanning book exhibit MDCP (HTTP 200)"
+        - "https://www.northernbeaches.nsw.gov.au/planning-and-development/building-and-renovations/former-manly-planning-rules -> /media/10133"
+  - id: pittwater21_dcp
+    name: Pittwater 21 Development Control Plan (+ appendices, multi-volume)
+    type: DCP
+    status: in_force
+    areas: [pittwater]
+    source:
+      downloaded: kb/incoming/pittwater21-dcp-vol4-amend22.pdf   # one volume (amend 22); remaining volumes TBC
+      alternatives:
+        - "ePlanning book exhibit PDCP (HTTP 200)"
+        - "planning-controls page 'Pittwater 21 DCP - Appendices' link -> /media/10880 and siblings"
+  - id: warringah_dcp_2011
+    name: Warringah Development Control Plan 2011 (read with Warringah LEP 2011)
+    type: DCP
+    status: in_force
+    areas: [warringah]
+    source:
+      alternatives:
+        - "ePlanning book exhibit DCP (HTTP 200)"
+  - id: warringah_dcp_2000
+    name: Warringah Development Control Plan 2000 (Amendment 4)
+    type: DCP
+    status: in_force_deferred
+    areas: [warringah]
+    source:
+      downloaded: kb/incoming/warringah-dcp-2000-amend4.pdf
+  - id: Warriewood Valley Water Management Specification 2001
+    name: Warriewood Valley Water Management Specification 2001
+    type: local water instrument
+    status: in_force
+    areas: [warringah]
+    source:
+      downloaded: kb/incoming/warriewood-valley-water-mgmt-spec-2001.pdf
+  - id: draft_nbc_lep
+    name: Draft Northern Beaches Local Environmental Plan (2026)
+    type: LEP
+    status: draft_exhibited        # exhibition 2026-07-20 to 2026-08-30
+    areas: [manly, pittwater, warringah]
+    considered_in_assessment: true   # council: must be considered alongside existing controls, weighted
+    citable_as_law: false
+    version_boundary: notification   # becomes in_force when notified; old three LEPs then historical for pre-notification DAs
+    source:
+      exhibition: "https://yoursay.northernbeaches.nsw.gov.au/LEP-DCP"
+  - id: draft_nbc_dcp
+    name: Draft Northern Beaches Development Control Plan (2026)
+    type: DCP
+    status: draft_exhibited
+    areas: [manly, pittwater, warringah]
+    considered_in_assessment: false  # council: NOT considered in DA assessment
+    citable_as_law: false
+    source:
+      exhibition: "https://yoursay.northernbeaches.nsw.gov.au/LEP-DCP"
+      documents: "https://yoursay.northernbeaches.nsw.gov.au/draft-development-control-plan-dcp-documents"
+
+state_instruments_local_anchors:   # applicability to specific land TBC with council before KB load
+  - id: sepp_resilience_hazards_2021
+    anchors:
+      - flood: "Council Flood Hazard Map (Pittwater basin) — online mapping tool"
+      - bushfire: "Northern Beaches Bush Fire Prone Land Map, certified by RFS Commissioner 2020-08-07"
+  - id: sepp_biodiversity_conservation_2021
+    anchors: [hinterland reserves (St Ives / Pittwater hinterland)]
+  - id: sepp_heritage_2021
+    anchors: []
+  - id: sepp_visual_amenity_2013
+    anchors: [headland / foreshore view corridors]
+  - id: sepp_coastal_zone_2021
+    anchors: [coastal zone across the LGA]
+  - id: sepp_water_2020
+    anchors: [Pittwater water-supply area (TBC)]
+  - id: sepp_basix_2004
+    anchors: [BASIX-certified residential development (2023 update)]
+  - id: sepp_sydney_airport
+    anchors: ["TBC — possible noise-contour overlap over Pittwater/St Ives; NOT listed on council planning-controls page; confirm before loading"]

@@ -1,0 +1,318 @@
+{
+ "case_id": "ff-g-rfb-bulk-breach",
+ "model": "google/gemma-3-27b-it",
+ "fact_checks": [
+  {
+   "ref": "LUT-R3",
+   "name": "land use table block",
+   "inputs": {
+    "use": "Residential flat building",
+    "zone": "R3"
+   },
+   "result": "IN_WITH_DEVELOPMENT_CONSENT",
+   "detail": "use 'Residential flat building' is listed in the LUT block 'with development consent'"
+  },
+  {
+   "ref": "8.4",
+   "name": "site-specific DCP precondition",
+   "inputs": {
+    "dcp_present": false,
+    "note": "No site-specific development control plan has been prepared for this site."
+   },
+   "result": "NOT_MET",
+   "detail": "no site-specific development control plan is recorded for the site - consent must not be granted (8.4)"
+  },
+  {
+   "ref": "8.5(4)",
+   "name": "design review panel trigger",
+   "inputs": {
+    "max_height_m": 13.5,
+    "storeys": 4.0,
+    "thresholds": {
+     "height_m": 12.0,
+     "storeys": 3.0
+    }
+   },
+   "result": "TRIGGERED",
+   "detail": "the trigger engages (a building height 13.5 m > 12 m and 4 storeys > 3 storeys is higher than the threshold) - design review panel review is a precondition of consent"
+  },
+  {
+   "ref": "8.6",
+   "name": "minimum site area",
+   "inputs": {
+    "area_sqm": 1150.0,
+    "threshold": 1400.0,
+    "unit": "m2",
+    "site": "Site G",
+    "zone": "R3",
+    "use": "Residential flat building"
+   },
+   "result": "FAILS",
+   "detail": "site area 1150 m2 < required 1400 m2 (Site G, Zone R3, residential flat building)"
+  },
+  {
+   "ref": "8.7",
+   "name": "minimum street frontage",
+   "inputs": {
+    "frontage_m": 32.0,
+    "threshold": 30.0,
+    "unit": "m",
+    "site": "Site G",
+    "zone": "R3",
+    "use": "Residential flat building"
+   },
+   "result": "PASSES",
+   "detail": "site frontage 32 m >= required 30 m (Site G, Zone R3, residential flat building)"
+  }
+ ],
+ "ms": 37370,
+ "usd": 0.00112823,
+ "in_tokens": 6166,
+ "out_tokens": 1411,
+ "attempts": 1,
+ "llm_error": null,
+ "raw": "```json\n{\n  \"findings\": [\n    {\"provision\": \"LUT-R3\",\n     \"determination\": \"permitted_with_consent\",\n     \"quote\": \"Residential flat buildings\",\n     \"reasoning\": \"The proposed use, 'Residential flat building', is listed in the 'with development consent' column of the LUT for the R3 zone.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"4.3\",\n     \"determination\": \"indeterminate\",\n     \"quote\": \"The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.\",\n     \"reasoning\": \"This clause refers to the Height of Buildings Map, which is not provided. Therefore, a determination regarding height compliance cannot be made.\",\n     \"confidence\": \"low\"},\n    {\"provision\": \"4.4\",\n     \"determination\": \"indeterminate\",\n     \"quote\": \"The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.\",\n     \"reasoning\": \"This clause refers to the Floor Space Ratio Map, which is not provided. Therefore, a determination regarding FSR compliance cannot be made.\",\n     \"confidence\": \"low\"},\n    {\"provision\": \"4.6\",\n     \"determination\": \"not_applicable\",\n     \"quote\": \"Development consent may, subject to this clause, be granted for development even though the development would contravene a development standard imposed by this or any other environmental planning instrument.\",\n     \"reasoning\": \"This clause deals with exceptions to development standards, but is only relevant if a contravention is identified. It does not independently trigger a refusal.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.1\",\n     \"determination\": \"not_applicable\",\n     \"quote\": \"In this Part\u2014Frenchs Forest Precinct means the land identified on the Precincts Map as the Frenchs Forest Precinct.\",\n     \"reasoning\": \"This clause provides definitions for use within Part 8 and does not independently affect the assessment of the DA.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.4\",\n     \"determination\": \"contravention\",\n     \"quote\": \"Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land that provides for the following\u2014\",\n     \"reasoning\": \"The case record states that no site-specific DCP has been prepared for the site, and the site is within the Frenchs Forest Precinct. Therefore, consent must not be granted.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.5(1)-(3)\",\n     \"determination\": \"not_applicable\",\n     \"quote\": \"Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.\",\n     \"reasoning\": \"While this clause applies to the site, the determination of 'design excellence' is a matter for the consent authority and not a basis for refusal at this stage.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.5(4)-(5)\",\n     \"determination\": \"design_review_required\",\n     \"quote\": \"Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless\u2014(a) a design review panel has reviewed the development, and (b) the consent authority considers the findings of the panel.\",\n     \"reasoning\": \"The proposed building is 13.5m high (greater than 12m) and 4 storeys (greater than 3 storeys), triggering the requirement for review by a design review panel.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.6\",\n     \"determination\": \"contravention\",\n     \"quote\": \"Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4\u2014\",\n     \"reasoning\": \"The site area is 1150 sqm, while the minimum site area for a residential flat building on Site G in the R3 zone is 1400 sqm. Therefore, the proposal contravenes this clause.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.7\",\n     \"determination\": \"compliant\",\n     \"quote\": \"Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4\u2014\",\n     \"reasoning\": \"The site frontage is 32m, which meets the minimum requirement of 30m for a residential flat building on Site G in the R3 zone.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.8\",\n     \"determination\": \"not_applicable\",\n     \"quote\": \"Development consent must not be granted to development on Site F unless the consent authority is satisfied the development will not result in less than 5,500 square metres of deep soil zone in Site F.\",\n     \"reasoning\": \"This clause applies to Site F, not Site G where the development is proposed.\",\n     \"confidence\": \"high\"},\n    {\"provision\": \"8.11\",\n     \"determination\": \"not_applicable\",\n     \"quote\": \"This clause applies to the following development\u2014(a) development that is or involves the relocation of the Frenchs Forest Police Station to Site F,\",\n     \"reasoning\": \"This clause relates to the relocation of the Frenchs Forest Police Station and is not relevant to this development.\",\n     \"confidence\": \"high\"}\n  ],\n  \"overall\": {\n    \"outcome\": \"refused\",\n    \"refusal_grounds\": [\"8.4\", \"8.6\", \"8.5(4)-(5)\"],\n    \"summary\": \"The development application is refused due to contraventions of clauses 8.4 and 8.6 of the Warringah LEP 2011, relating to the lack of a site-specific DCP and insufficient site area. Additionally, the proposal triggers the requirement for review by a design review panel under clause 8.5(4)-(5).\"\n  }\n}\n```",
+ "parsed": {
+  "findings": [
+   {
+    "provision": "LUT-R3",
+    "determination": "permitted_with_consent",
+    "quote": "Residential flat buildings",
+    "reasoning": "The proposed use, 'Residential flat building', is listed in the 'with development consent' column of the LUT for the R3 zone.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "4.3",
+    "determination": "indeterminate",
+    "quote": "The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.",
+    "reasoning": "This clause refers to the Height of Buildings Map, which is not provided. Therefore, a determination regarding height compliance cannot be made.",
+    "confidence": "low",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "4.4",
+    "determination": "indeterminate",
+    "quote": "The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.",
+    "reasoning": "This clause refers to the Floor Space Ratio Map, which is not provided. Therefore, a determination regarding FSR compliance cannot be made.",
+    "confidence": "low",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "4.6",
+    "determination": "not_applicable",
+    "quote": "Development consent may, subject to this clause, be granted for development even though the development would contravene a development standard imposed by this or any other environmental planning instrument.",
+    "reasoning": "This clause deals with exceptions to development standards, but is only relevant if a contravention is identified. It does not independently trigger a refusal.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.1",
+    "determination": "not_applicable",
+    "quote": "In this Part\u2014Frenchs Forest Precinct means the land identified on the Precincts Map as the Frenchs Forest Precinct.",
+    "reasoning": "This clause provides definitions for use within Part 8 and does not independently affect the assessment of the DA.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.4",
+    "determination": "contravention",
+    "quote": "Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land that provides for the following\u2014",
+    "reasoning": "The case record states that no site-specific DCP has been prepared for the site, and the site is within the Frenchs Forest Precinct. Therefore, consent must not be granted.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.5(1)-(3)",
+    "determination": "not_applicable",
+    "quote": "Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.",
+    "reasoning": "While this clause applies to the site, the determination of 'design excellence' is a matter for the consent authority and not a basis for refusal at this stage.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.5(4)-(5)",
+    "determination": "design_review_required",
+    "quote": "Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless\u2014(a) a design review panel has reviewed the development, and (b) the consent authority considers the findings of the panel.",
+    "reasoning": "The proposed building is 13.5m high (greater than 12m) and 4 storeys (greater than 3 storeys), triggering the requirement for review by a design review panel.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.6",
+    "determination": "contravention",
+    "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4\u2014",
+    "reasoning": "The site area is 1150 sqm, while the minimum site area for a residential flat building on Site G in the R3 zone is 1400 sqm. Therefore, the proposal contravenes this clause.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.7",
+    "determination": "compliant",
+    "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4\u2014",
+    "reasoning": "The site frontage is 32m, which meets the minimum requirement of 30m for a residential flat building on Site G in the R3 zone.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.8",
+    "determination": "not_applicable",
+    "quote": "Development consent must not be granted to development on Site F unless the consent authority is satisfied the development will not result in less than 5,500 square metres of deep soil zone in Site F.",
+    "reasoning": "This clause applies to Site F, not Site G where the development is proposed.",
+    "confidence": "high",
+    "self_inconsistent": false
+   },
+   {
+    "provision": "8.11",
+    "determination": "not_applicable",
+    "quote": "This clause applies to the following development\u2014(a) development that is or involves the relocation of the Frenchs Forest Police Station to Site F,",
+    "reasoning": "This clause relates to the relocation of the Frenchs Forest Police Station and is not relevant to this development.",
+    "confidence": "high",
+    "self_inconsistent": false
+   }
+  ],
+  "overall": {
+   "outcome": "refused",
+   "refusal_grounds": [
+    "8.4",
+    "8.6",
+    "8.5(4)-(5)"
+   ],
+   "summary": "The development application is refused due to contraventions of clauses 8.4 and 8.6 of the Warringah LEP 2011, relating to the lack of a site-specific DCP and insufficient site area. Additionally, the proposal triggers the requirement for review by a design review panel under clause 8.5(4)-(5)."
+  }
+ },
+ "citation_checks": [
+  {
+   "provision": "LUT-R3",
+   "determination": "permitted_with_consent",
+   "quote": "Residential flat buildings",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "LUT-R3",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 24
+  },
+  {
+   "provision": "4.3",
+   "determination": "indeterminate",
+   "quote": "The height of a building on any land is not to exceed the maximum height shown for the land on the Height of Buildings Map.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "4.3",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 99
+  },
+  {
+   "provision": "4.4",
+   "determination": "indeterminate",
+   "quote": "The maximum floor space ratio for a building on any land is not to exceed the floor space ratio shown for the land on the Floor Space Ratio Map.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "4.4",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 116
+  },
+  {
+   "provision": "4.6",
+   "determination": "not_applicable",
+   "quote": "Development consent may, subject to this clause, be granted for development even though the development would contravene a development standard imposed by this or any other environmental planning instrument.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "4.6",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 179
+  },
+  {
+   "provision": "8.1",
+   "determination": "not_applicable",
+   "quote": "In this Part\u2014Frenchs Forest Precinct means the land identified on the Precincts Map as the Frenchs Forest Precinct.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.1",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 98
+  },
+  {
+   "provision": "8.4",
+   "determination": "contravention",
+   "quote": "Development consent must not be granted to development on land in the Frenchs Forest Precinct unless a development control plan has been prepared for the land that provides for the following\u2014",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.4",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 161
+  },
+  {
+   "provision": "8.5(1)-(3)",
+   "determination": "not_applicable",
+   "quote": "Development consent must not be granted unless the consent authority considers that the development exhibits design excellence.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.5(1)-(3)",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 111
+  },
+  {
+   "provision": "8.5(4)-(5)",
+   "determination": "design_review_required",
+   "quote": "Development consent must not be granted to development in relation to a building that is, or will, be higher than 12 metres or 3 storeys, or both, unless\u2014(a) a design review panel has reviewed the development, and (b) the consent authority considers the findings of the panel.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.5(4)-(5)",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 230
+  },
+  {
+   "provision": "8.6",
+   "determination": "contravention",
+   "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the site area is equal to or greater than the area shown in Column 4\u2014",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.6",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 187
+  },
+  {
+   "provision": "8.7",
+   "determination": "compliant",
+   "quote": "Development consent must not be granted to development in a site and zone shown in Columns 1 and 2 of the following table, for a purpose shown in Column 3, unless the street frontage of the site area is equal to or greater than the length shown in Column 4\u2014",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.7",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 208
+  },
+  {
+   "provision": "8.8",
+   "determination": "not_applicable",
+   "quote": "Development consent must not be granted to development on Site F unless the consent authority is satisfied the development will not result in less than 5,500 square metres of deep soil zone in Site F.",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.8",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 166
+  },
+  {
+   "provision": "8.11",
+   "determination": "not_applicable",
+   "quote": "This clause applies to the following development\u2014(a) development that is or involves the relocation of the Frenchs Forest Police Station to Site F,",
+   "self_inconsistent": false,
+   "verified": true,
+   "matched_ref": "8.11",
+   "ellipsis_stripped": false,
+   "reason": null,
+   "len": 125
+  }
+ ]
+}

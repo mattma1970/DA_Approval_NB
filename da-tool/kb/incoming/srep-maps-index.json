@@ -1,0 +1,782 @@
+[
+ {
+  "file": "sydney-harbour-catchment-map-2016.pdf",
+  "label": "Sydney Harbour Catchment Map (14.6 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-catchment-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 15003824,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:31Z"
+ },
+ {
+  "file": "sydney-harbour-catchment-sydney-regional-environmental-plan-2005.pdf",
+  "label": "Sydney Harbour Catchment Sydney Regional Environmental Plan (293 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-catchment-sydney-regional-environmental-plan-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 300880,
+  "pages": 16,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:34Z"
+ },
+ {
+  "file": "map-little-penguin-critical-habitat-map-2005.pdf",
+  "label": "Critical Habitat Area Map (760 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-little-penguin-critical-habitat-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 778833,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:35Z"
+ },
+ {
+  "file": "map-sydney-rep-sydney-harbour-catchment-foreshores-and-waterways-area-map-2016.pdf",
+  "label": "Foreshores and Waterways Area Map (994 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-rep-sydney-harbour-catchment-foreshores-and-waterways-area-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1018703,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:35Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-1-of-5-map-2005.pdf",
+  "label": "Foreshores and Waterways Area Map Sheet 1 of 5 (735 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-1-of-5-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 753644,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:36Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-2-of-5-map-2016.pdf",
+  "label": "Foreshores and Waterways Area Map Sheet 2 of 5 (Amendment 2016) (4.4 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-2-of-5-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 4532672,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:37Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-3-of-5-map-2016.pdf",
+  "label": "Foreshores and Waterways Area Map Sheet 3 of 5 (Amendment 2016) (5.4 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-3-of-5-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 5530487,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:38Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-4-of-5-map-2005.pdf",
+  "label": "Foreshores and Waterways Area Map Sheet 4 of 5 (751 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-4-of-5-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 769395,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:40Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-5-of-5-map-2005.pdf",
+  "label": "Foreshores and Waterways Area Map Sheet 5 of 5 (642 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-foreshores-and-waterways-area-sheet-5-of-5-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 658333,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:40Z"
+ },
+ {
+  "file": "sydney-harbour-heritage-map-2016.pdf",
+  "label": "Heritage Map (1.1 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-heritage-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1150247,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:41Z"
+ },
+ {
+  "file": "map-sheet-2-heritage-key-map-2005.pdf",
+  "label": "Heritage Map - Key of Heritage Items (37 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-2-heritage-key-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 38896,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:42Z"
+ },
+ {
+  "file": "map-special-purposes-sheet-1-davis-marina-map-2005.pdf",
+  "label": "Sheet 1\u2014Davis Marina (33 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-special-purposes-sheet-1-davis-marina-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 33869,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:43Z"
+ },
+ {
+  "file": "map-special-purposes-sheet-2-manly-boatshed-map-2005.pdf",
+  "label": "Sheet 2\u2014Manly Boatshed (32 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-special-purposes-sheet-2-manly-boatshed-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 33588,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:44Z"
+ },
+ {
+  "file": "map-special-purposes-sheet-3-sailors-bay-boatshed-map-2005.pdf",
+  "label": "Sheet 3\u2014Sailors Bay Boatshed (28 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-special-purposes-sheet-3-sailors-bay-boatshed-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 29358,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:44Z"
+ },
+ {
+  "file": "sydney-harbour-strategic-foreshore-sites-map-2016.pdf",
+  "label": "Strategic Foreshore Sites Map (758 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-strategic-foreshore-sites-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 776554,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:45Z"
+ },
+ {
+  "file": "sydney-harbour-city-foreshores-map-2016.pdf",
+  "label": "Sheet 1\u2014City Foreshores Area (Amendment 2016) (1.3 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-city-foreshores-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1341711,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:46Z"
+ },
+ {
+  "file": "map-sheet-2-garden-island-map-2005.pdf",
+  "label": "Sheet 2\u2014Garden Island (57 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-2-garden-island-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 58606,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:47Z"
+ },
+ {
+  "file": "map-sheet-3-north-head-map-2005.pdf",
+  "label": "Sheet 3\u2014North Head (81 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-3-north-head-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 83296,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:48Z"
+ },
+ {
+  "file": "map-sheet-4-st-patricks-estate-north-head-peninsula-map-2005.pdf",
+  "label": "Sheet 4\u2014St Patrick's Estate, North Head Peninsula (50 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-4-st-patricks-estate-north-head-peninsula-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 52128,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:48Z"
+ },
+ {
+  "file": "map-sheet-5-manly-wharf-map-2005.pdf",
+  "label": "Sheet 5\u2014Manly Wharf (14 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-5-manly-wharf-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 14480,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:49Z"
+ },
+ {
+  "file": "map-sheet-6-middle-head-map-2005.pdf",
+  "label": "Sheet 6\u2014Middle Head (89 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-6-middle-head-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 91477,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:50Z"
+ },
+ {
+  "file": "map-sheet-7-taronga-zoological-gardens-map-2005.pdf",
+  "label": "Sheet 7\u2014Taronga Zoological Gardens (41 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-7-taronga-zoological-gardens-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 42805,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:50Z"
+ },
+ {
+  "file": "map-sheet-8-hmas-platypus-map-2005.pdf",
+  "label": "Sheet 8\u2014HMAS Platypus (21 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-8-hmas-platypus-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 21525,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:51Z"
+ },
+ {
+  "file": "map-sheet-9-luna-park-map-2005.pdf",
+  "label": "Sheet 9\u2014Luna Park (18 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-9-luna-park-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 18542,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:51Z"
+ },
+ {
+  "file": "map-sheet-10-sra-land-lavender-bay-map-2005.pdf",
+  "label": "Sheet 10\u2014SRA Land, Lavender Bay (28 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-10-sra-land-lavender-bay-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 28688,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:52Z"
+ },
+ {
+  "file": "map-sheet-11-bp-site-berrys-bay-map-2005.pdf",
+  "label": "Sheet 11\u2014BP Site, Berrys Bay (21 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-11-bp-site-berrys-bay-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 21718,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:53Z"
+ },
+ {
+  "file": "map-sheet-12-coal-loader-site-balls-head-map-2005.pdf",
+  "label": "Sheet 12\u2014Coal Loader Site, Balls Head (10 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-12-coal-loader-site-balls-head-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 10559,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:54Z"
+ },
+ {
+  "file": "map-sheet-13-hmas-waterhen-map-2005.pdf",
+  "label": "Sheet 13\u2014HMAS Waterhen (12 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-13-hmas-waterhen-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 12299,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:54Z"
+ },
+ {
+  "file": "map-sheet-14-woolwich-defence-land-map-2005.pdf",
+  "label": "Sheet 14\u2014Woolwich Defence Land (18 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-14-woolwich-defence-land-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 19057,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:55Z"
+ },
+ {
+  "file": "map-sheet-15-gladesville-hospital-site-map-2005.pdf",
+  "label": "Sheet 15\u2014Gladesville Hospital site (42 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-15-gladesville-hospital-site-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 43126,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:56Z"
+ },
+ {
+  "file": "map-sheet-16-adi-site-ryde-map-2005.pdf",
+  "label": "Sheet 16\u2014ADI site, Ryde (10 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-16-adi-site-ryde-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 10933,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:56Z"
+ },
+ {
+  "file": "map-sheet-17-shepherds-bay-meadowbank-map-2005.pdf",
+  "label": "Sheet 17\u2014Shepherds Bay, Meadowbank (50 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-17-shepherds-bay-meadowbank-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 52046,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:57Z"
+ },
+ {
+  "file": "map-sheet-18-naval-stores-site-ermington-map-2005.pdf",
+  "label": "Sheet 18\u2014Naval Stores site, Ermington (30 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-18-naval-stores-site-ermington-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 31446,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:58Z"
+ },
+ {
+  "file": "map-sheet-19-leeds-street-rhodes-map-2005.pdf",
+  "label": "Sheet 19\u2014Leeds Street, Rhodes (20 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-19-leeds-street-rhodes-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 21292,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:58Z"
+ },
+ {
+  "file": "map-sheet-20-rivendell-adolescent-unit-map-2005.pdf",
+  "label": "Sheet 20\u2014Rivendell Adolescent Unit (12 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-20-rivendell-adolescent-unit-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 12805,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:15:59Z"
+ },
+ {
+  "file": "map-sheet-21-concord-repatriation-general-hospital-map-2005.pdf",
+  "label": "Sheet 21\u2014Concord Repatriation General Hospital (20 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-21-concord-repatriation-general-hospital-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 21154,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:00Z"
+ },
+ {
+  "file": "map-sheet-22-the-dame-eadith-walker-hospital-map-2005.pdf",
+  "label": "Sheet 22\u2014The Dame Eadith Walker Hospital (27 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-22-the-dame-eadith-walker-hospital-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 27828,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:00Z"
+ },
+ {
+  "file": "map-sheet-23-agl-site-mortlake-map-2005.pdf",
+  "label": "Sheet 23\u2014AGL site, Mortlake (89 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-23-agl-site-mortlake-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 91334,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:01Z"
+ },
+ {
+  "file": "map-sheet-24-cockatoo-island-spectacle-island-and-snapper-island-map-2005.pdf",
+  "label": "Sheet 24\u2014Cockatoo Island, Spectacle Island & Snapper Island (74 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-24-cockatoo-island-spectacle-island-and-snapper-island-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 76448,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:02Z"
+ },
+ {
+  "file": "map-sheet-25-caltex-site-ballast-point-map-2005.pdf",
+  "label": "Sheet 25\u2014Caltex site, Ballast Point (12 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-25-caltex-site-ballast-point-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 13227,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:02Z"
+ },
+ {
+  "file": "map-sheet-26-fletcher-site-blackwattle-bay-map-2005.pdf",
+  "label": "Sheet 26\u2014Fletcher site, Blackwattle Bay (15 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-26-fletcher-site-blackwattle-bay-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 16269,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:03Z"
+ },
+ {
+  "file": "map-sheet-27-strickland-house-vaucluse-map-2005.pdf",
+  "label": "Sheet 27\u2014Strickland House, Vaucluse (13 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-27-strickland-house-vaucluse-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 13659,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:04Z"
+ },
+ {
+  "file": "map-sheet-28-hmas-watson-south-head-map-2005.pdf",
+  "label": "Sheet 28\u2014HMAS Watson, South Head (20 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sheet-28-hmas-watson-south-head-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 21231,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:04Z"
+ },
+ {
+  "file": "sydney-opera-house-buffer-zone-map-2016.pdf",
+  "label": "Sydney Opera House Buffer Zone Map (1.5 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-opera-house-buffer-zone-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1619690,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:05Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-1-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 1 (485 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-1-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 497439,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:06Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-2-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 2 (535 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-2-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 548113,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:07Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-3-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 3 (575 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-3-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 589030,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:07Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-4-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 4 (626 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-4-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 641427,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:08Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-5-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 5 (595 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-5-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 610254,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:09Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-6-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 6 (624 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-6-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 639285,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:10Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-7-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 7 (581 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-7-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 595544,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:10Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-8-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 8 (506 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-8-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 518546,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:11Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-9-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 9 (340 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-9-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 349147,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:12Z"
+ },
+ {
+  "file": "sydney-harbour-wetlands-protection-area-map-sheet-10-2016.pdf",
+  "label": "Wetlands Protection Area Map Sheet 10 (Amendment 2016) (1.5 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-wetlands-protection-area-map-sheet-10-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1536488,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:13Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-11-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 11 (594 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-11-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 608935,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:13Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-12-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 12 (621 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-12-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 636081,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:14Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-13-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 13 (472 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-13-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 484003,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:15Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-14-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 14 (296 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-14-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 303523,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:16Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-15-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 15 (181 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-15-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 186077,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:17Z"
+ },
+ {
+  "file": "map-wetlands-protection-area-sheet-16-of-16-map-2005.pdf",
+  "label": "Wetlands Protection Area Map Sheet 16 (369 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-wetlands-protection-area-sheet-16-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 378707,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:17Z"
+ },
+ {
+  "file": "sydney-harbour-catchment-zoning-map-2016.pdf",
+  "label": "Zoning Map (Amendment 2016) (1.3 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-catchment-zoning-map-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 1337260,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:18Z"
+ },
+ {
+  "file": "map-regional-environmental-plan-zoning-sheet-1-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 1 (535 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-regional-environmental-plan-zoning-sheet-1-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 548191,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:19Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-2-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 2 (609 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-2-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 624403,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:20Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-3-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 3 (501 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-3-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 513212,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:21Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-4-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 4 (678 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-4-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 695003,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:21Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-5-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 5 (963 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-5-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 986521,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:22Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-6-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 6 (567 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-6-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 580838,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:23Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-7-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 7 (486 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-7-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 498469,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:23Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-8-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 8 (423 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-8-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 433791,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:24Z"
+ },
+ {
+  "file": "map-regional-environmental-plan-zoning-sheet-9-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 9 (282 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-regional-environmental-plan-zoning-sheet-9-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 289184,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:25Z"
+ },
+ {
+  "file": "sydney-harbour-catchment-and-zoning-map-sheet-10-2016.pdf",
+  "label": "Zoning Map (Amendment 2016) Sheet 10 (2.3 mb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/sydney-harbour-catchment-and-zoning-map-sheet-10-2016.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 2451875,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:25Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-11-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 11 (731 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-11-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 749550,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:26Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-12-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 12 (826 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-12-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 846073,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:27Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-13-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 13 (528 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-13-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 541346,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:28Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-14-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 14 (343 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-14-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 351455,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:28Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-15-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 15 (237 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-15-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 242856,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:29Z"
+ },
+ {
+  "file": "map-sydney-regional-environmental-plan-zoning-sheet-16-of-16-map-2005.pdf",
+  "label": "Zoning Map Sheet 16 (404 kb)",
+  "url": "https://eplanningdlprod.blob.core.windows.net/pdfmaps/map-sydney-regional-environmental-plan-zoning-sheet-16-of-16-map-2005.pdf",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 414536,
+  "pages": 1,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:30Z"
+ },
+ {
+  "file": "pdp",
+  "label": "Data Quality Statement",
+  "url": "https://www.planningportal.nsw.gov.au/opendata/dataset/sydney-regional-environmental-plan-2005/resource/data_quality_report/pdp",
+  "source_page": "https://www.planningportal.nsw.gov.au/publications/environmental-planning-instruments/sydney-regional-environmental-plan-sydney-harbour-catchment-2005",
+  "size": 25819,
+  "pages": 6,
+  "http_status": 200,
+  "fetched_at": "2026-09-25T17:16:31Z"
+ }
+]

@@ -1,0 +1,19 @@
+# da-tool — .venv (parsing / KB layer: kb/ingest.py, kb/query.py)
+#
+#   python3 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+#
+# Requires Python 3.12 (3.12.3 on the reference machine).
+# Direct deps pinned from the working .venv (2026-09-26); transitive
+# deps (numpy, onnxruntime, pdfminer.six, ...) float.
+
+pymupdf==1.28.2
+pymupdf4llm==1.28.2        # pulls pymupdf-layout (GNN layout model); primary PDF engine in kb/ingest.py
+pdfplumber==0.11.10        # fallback text/tables engine in kb/ingest.py
+PyYAML==6.0.3              # config/*.yaml
+beautifulsoup4==4.15.0     # HTML parsing in kb/ingest.py
+lxml==6.1.3
+llama-cpp-python==0.3.35   # LocalGGUFLLM in mvp/llm.py (excluded-models guard path; never the model under test)
+
+# fallback if pip is network-blocked: system `pdftotext` (poppler-utils)
+# for text extraction

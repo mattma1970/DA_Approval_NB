@@ -1,0 +1,482 @@
+[
+ {
+  "id": "warringah_dcp_2000/table-p2",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "Table (page 2)"
+  ],
+  "structure": "table",
+  "kind": null,
+  "number": null,
+  "heading": "Table (page 2)",
+  "text": "",
+  "tables": [
+   {
+    "rows": [
+     [
+      "Amend No.",
+      "EDMS",
+      "Approved \nby Council",
+      "Commenced",
+      "Overview of amendment"
+     ],
+     [
+      "1",
+      "PEX2015/0002",
+      "10/02/2015",
+      "21/02/2015",
+      "Part Section 2.6 – Notification \nRemoved requirement to send hard \ncopy of plan."
+     ],
+     [
+      "2",
+      "SF2893",
+      "27/06/2017",
+      "08/07/2017",
+      "New Northern Beaches Council \nnotification requirements."
+     ],
+     [
+      "3",
+      "C001865",
+      "25/09/2018",
+      "20/10/2018",
+      "Tree and Waste Management \nAmendments"
+     ],
+     [
+      "4",
+      "PEX2019/0004",
+      "26/11/2019",
+      "01/12/2019",
+      "Removal of Part 1 Exhibition, \nAdvertisement and Notification of \nApplications to give effect to the \nNorthern Beaches Community \nParticipation Plan"
+     ]
+    ]
+   }
+  ],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 2
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/2",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "2 Preservation of Trees and Bushland Vegetation Applies to Land"
+  ],
+  "structure": "part",
+  "kind": null,
+  "number": "2",
+  "heading": "Preservation of Trees and Bushland Vegetation Applies to Land",
+  "text": "This control applies all land, waterways and Bushland covered by the Warringah LEP 2000.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "ok",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 3
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/2/Objectives",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "2 Preservation of Trees and Bushland Vegetation Applies to Land",
+   "Objectives"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Objectives",
+  "text": "\nTo protect and enhance the urban forest of the Northern Beaches.\n\nTo effectively manage the risks that come with an established urban forest through\nprofessional management of trees.\n\nTo minimise soil erosion and to improve air quality, water quality, carbon sequestration,\nstorm water retention, energy conservation and noise reduction.\n\nTo protect, enhance bushland that provides habitat for locally native plant and animal\nspecies, threatened species populations and endangered ecological communities.\n\nTo promote the retention and planting of trees which will help enable plant and animal\ncommunities to survive in the long-term.\n\nTo protect and enhance the scenic value and character that trees\nand/or bushland vegetation provide\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 3
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/2/Objectives/Requirements for Vegetat",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "2 Preservation of Trees and Bushland Vegetation Applies to Land",
+   "Objectives",
+   "Requirements for Vegetation Clearing Permits"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Requirements for Vegetation Clearing Permits",
+  "text": "1 Authority to clear a tree or other vegetation is regulated in this plan in accordance with\nState Environmental Planning Policy (Vegetation in Non-Rural Areas) 2017 i.e. ‘Vegetation\nSEPP’. In particular, Part 2 of the Vegetation SEPP sets out the authority to clear\nvegetation and Part 3 provides for Council to declare under this DCP when a Vegetation\nClearing Permit may be issued for clearing of vegetation.\nNote: However a permit under Part 3 of the Vegetation SEPP cannot allow the clearing of\nvegetation that is or forms part of a heritage item or that is within a heritage conservation\narea, or that is or forms part of an Aboriginal object or that is within an Aboriginal place of\nheritage significance, unless the council is satisfied that the proposed activity:\n\nis of a minor nature or is for the maintenance of the heritage item, Aboriginal object,\nAboriginal place of heritage significance or heritage conservation area, and\n\nwould not adversely affect the heritage significance of the heritage item, Aboriginal\nobject, Aboriginal place of heritage significance or heritage conservation area.\n2 A person shall not ringbark, cut down, top, lop, remove, poison, injure, or wilfully destroy\nany tree or bushland vegetation that requires a Vegetation Clearing Permit under the\nprovisions of Part 3 of the Vegetation SEPP. This includes damage to a tree or bushland\nvegetation by:\nDamaging or tearing live branches and roots;\n\nDamaging the bark, including attachment of objects using invasive fastenings, the\nfastening of materials around the trunk of trees which may result in a detrimental\nimpact on tree health;\n\nTree topping, where large branches and/or the trunk of the tree is removed from the\ntop of the trees canopy;\n\nTree lopping, where branches are removed to reduce the height and spread of the\ntree.\n\nDamaging the root zone of a tree by way of compaction, including storage and\nstockpiling materials;\n\nChanging of ground levels within the root zone of a tree by way of excavation,\ntrenching, filling or stockpiling;\n\nUnder scrubbing of bushland vegetation;\n\nBurning of vegetation (not part of a Hazard Reduction Certificate); or\n\nAny other act or activity that causes the destruction of, the severing of trunks or\nstems of, or any other substantial damage to, some or all of the bushland vegetation\nin an area.\nAn authority to clear vegetation is not required under the Vegetation SEPP:\n\nif it is clearing authorised by development consent i.e. a ‘DA’ under Part 4 of the\nEnvironmental Planning and Assessment Act 1979. Note: However this authority to\nclear vegetation without a permit does not extend to clearing merely because it is a\npart of or ancillary to the carrying out of exempt development (see clause 8(1) of\nVegetation SEPP).\n\nif it is clearing of a kind that is an activity authorised by an approval, or carried out by\na determining authority within the meaning of Part 5 of the Environmental Planning &\nAssessment Act after compliance with that Part.\n\nif the clearing was an emergency firefighting act or emergency bush fire hazard\nreduction work within the meaning of the Rural Fires Act 1997 (the ‘Act’), or bush fire\nhazard reduction work to which section 100C(4) of the Act applies or vegetation\nclearing work under section 100R of the Act.\n3 A Vegetation Clearing Permit is required for:\na) Removal or cutting down of any tree over 5 metres high;\nb) Pruning of more than 10 percent of a tree canopy.\nc) The removal or cutting down of vegetation in “Bushland”.\nFor the purpose of this clause “Bushland” means land on which there is vegetation\nwhich is either a remainder of the natural vegetation of the land or, if altered, is still\nrepresentative of the structure and floristics of the natural vegetation (as defined by the\nLocal Government Act 1993 and WLEP 2000).\nNote: A description of native vegetation types or communities which constitute\n“Bushland” is provided in the adopted Warringah Natural Area Survey: Vegetation\nCommunities and Plant Species - August 2005.\n4 In applying for a Vegetation Clearing Permit, the applicant must demonstrate that any tree\nto be removed as part of a Vegetation Clearing Permit meets one or more of the criteria of\nthe Removal of Tree Test in Appendix 1 and the Tree Retention Assessment in Appendix 2.\nAn arborist report may be required to satisfy this requirement.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 4
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/2/Objectives/Requirements for Vegetat/Requirements for Develop",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "2 Preservation of Trees and Bushland Vegetation Applies to Land",
+   "Objectives",
+   "Requirements for Vegetation Clearing Permits",
+   "Requirements for Development Applications (DAs)"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Requirements for Development Applications (DAs)",
+  "text": "When a DA required for clearing vegetation the following requirements apply:\n5 Development is to be sited and designed to minimise the impact on remnant native\nvegetation, including canopy trees and understorey vegetation, and on remnant native\nground cover species.\n6 Where the applicant demonstrates that no reasonable alternative design exists and a tree\nmust be removed, suitable compensatory tree planting is required. Details including\nproposed species and the location of replacement planting are to be provided.\n7 Development must also avoid any impact on trees on public land.\n8 For DAs involving the construction of new buildings and works containing Classes 2-9\n(BCA), the DA lodgement is to be in accordance with Appendix 3.\n9 Where trees proposed to be retained may be affected by the construction of new buildings\nand works of Classes 1 and 10, a Tree Protection Plan is to be submitted in accordance\nwith Appendix 4.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 5
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/2/Objectives/Requirements for Vegetat/Requirements for Develop/Exceptions",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "2 Preservation of Trees and Bushland Vegetation Applies to Land",
+   "Objectives",
+   "Requirements for Vegetation Clearing Permits",
+   "Requirements for Development Applications (DAs)",
+   "Exceptions"
+  ],
+  "structure": "unnumbered",
+  "kind": "table",
+  "number": null,
+  "heading": "Exceptions",
+  "text": "Council may consider a variation to the requirements where Council is satisfied:\n\na tree or other vegetation is dying or dead and is not required as habitat for native\nfauna.\na tree or other vegetation is a risk.\n\nIn an area in which the Council has authorised their removal as part of a hazard\nreduction program, where that removal is necessary in order to manage risk\n\nRequired to be removed under other legislation (including the NSW Rural Fires Act\n1997 and the Environmental Planning and Assessment Act 1979).\n\nRemoved by Rural Fire Services because they pose or will pose a significant threat to\naccess along required fire trails or to human life, buildings or other property during a\nbushfire.\n\nA tree where the immediate removal is essential for emergency access or emergency\nworks by the Council, the State Emergency Service or a public authority.\n\nA tree in a container, other than in a planter box that forms part of a building, or in a\ncontainer that is permanently fixed to a structure.\n\nA field-grown tree propagated as part of a commercial horticultural or agricultural\nenterprise.\n\nThe removal of any tree on the Exempt Tree Species List (see Table 1).\n\nReasonable maintenance involving trimming and pruning of up to 10 percent of a tree's\ncanopy within a 12 month period (all pruning works must be in accordance with\nAustralian Standard AS 4373:2007 Pruning of amenity trees).\n\nThe pruning or removal of hedges (unless required by conditions of a development\nconsent).\n“Hedge” means groups of 2 or more trees that:\n(a) are planted (whether in the ground or otherwise) so as to form a hedge, and\n(b) rise to a height of at least 2.5 metres (above existing ground level).\nThe removal of deadwood from a tree.\n\nThe removal of a tree, where the base of the trunk of the tree at ground level, is located\nwithin 2 metres of an existing approved building (not including decks, pergolas, sheds,\npatios or the like, even if they are attached to a building).\n\nRemoval of any species of parasite mistletoe or parasitic plant from any part of a tree to\nameliorate the effects on the tree from such a parasite\n\nThe removal of trees which are considered a high risk / imminent danger to life and\nproperty by a Level 5 qualified arborist. These trees can be removed without Council\nconsent by the owner of the tree subject to the owner obtaining written confirmation\nfrom the arborist that clearly states the following:\n\nThe arborists qualifications: AQF Level 5 Arborist or equivalent;\nThat the tree(s) is declared a ‘high risk’ or is an imminent danger to life and\nproperty;\n\nThat immediate removal of the tree(s) is recommended.\n\nA copy of the report must be sent to Council for record keeping purpose.\nNotes: A “significant tree” is a tree that is over 5m in height and, that impacts on the streetscape\nby virtue of its size, appearance, type, age, condition and heritage/cultural significance. It includes\nhollow-bearing trees and/or trees of conservation significance or habitat value.\nThe cutting down, pruning or removal by persons other than the owner must have written\npermission from the owner.\nAll work must be carried out in accordance with the Australian Standards 4373-2007 “Pruning of\nAmenity Trees” and in accordance with the current NSW WorkCover Code of Practice -\nAmenity Tree Industry.\nThe submission of an arborist’s report may be required to satisfy Council that a tree is dead or\ndying, or is a risk to human life or property.\nThe impact of development on native vegetation can be minimised by:\n\nlocating buildings to minimise the amount of disturbance of vegetation and landforms;\n\nproviding adequate distance between the drip line of the tree and development. This avoids\ndestabilising and deoxygenating the tree, altering the drainage and helps ensure its\npreservation;\n\navoiding strip footings and slab on ground construction due to the impact on trees in close\nproximity. Suitable footing alternatives are as follows:\n\nstump footings usually associated with lightweight construction on sloping sites; or\n\npier and beam footings as the beams are able to span the root systems and\nminimise tree root damage. Pier and beam footings also allow trees to be located closer\nto development where no other alternative exists;\n\nlocating paved areas outside the drip line of trees and minimise paved area impact on the\nnative understorey vegetation or native groundcover species;\n\nminimising hard surfaces to allow water infiltration to the root system;\n\nlocating trenches outside the drip line of a tree;\n\nadequately protecting and managing trees and vegetation during construction; and\n\nprotecting tree trunk bases with fencing or a tree barrier during construction.\nFor vegetation that is known or potential habitat of threatened species, populations or ecological\ncommunities see the following for further information:\n\nCommonwealth legislation: Environment Protection and Biodiversity Conservation Act (1999)\n\nState legislation: Biodiversity Conservation Act 2016\nCouncil does not encourage the following species to be planted: Chamaecyparis spp. (Cypress\npine) and Cupressus spp. (Cypress pine).\nTable 1 - Exemption Species: The following Tree species are suitable for removal without consent\nunless identified as a Heritage item or within a Heritage area.\nNote: The Noxious Weed Act is now superseded by the Biosecurity Act 2015. Any species\npreviously identified as noxious, is now called a priority weed species. Refer to Greater Sydney\nRegional Strategic Weed Management Plan.\n",
+  "tables": [
+   {
+    "rows": [
+     [
+      "Acacia baileyana",
+      "Cootamundra Wattle"
+     ],
+     [
+      "Acacia saligna",
+      "Golden Wreath Wattle, Golden Willow Wattle"
+     ],
+     [
+      "Acer negundo",
+      "Box Elder"
+     ],
+     [
+      "Alianthus altissima",
+      "Tree of Heaven"
+     ],
+     [
+      "Alnus jorullensis",
+      "Evergreen Alder"
+     ],
+     [
+      "Araucaria bidwillii. ...... (Not Norfolk Island \nPines)",
+      "Bunya Bunya Pine"
+     ],
+     [
+      "Syagrus (Arecastrum) romanzoffiaa",
+      "Cocos Palm"
+     ],
+     [
+      "Brachychiton acerifolius",
+      "Illawara Flame Tree"
+     ],
+     [
+      "Cassia spp",
+      "Cassia"
+     ],
+     [
+      "Castanospermum australe",
+      "Black Bean, Moreton Bay Chestnut"
+     ],
+     [
+      "Celtis australis",
+      "Hackberry"
+     ],
+     [
+      "Cinnamomum camphora",
+      "Camphor laurel"
+     ],
+     [
+      "Citharexylum spinosum",
+      "Fiddlewood"
+     ],
+     [
+      "Cotoneaster glaucophyllus.",
+      "Cotoneaster"
+     ],
+     [
+      "Cupaniopsis laurina",
+      "Tuckeroo"
+     ],
+     [
+      "Cupressus spp. Cupressocyparis spp. \nChamaecyparis spp.",
+      "Cypress Pine"
+     ],
+     [
+      "Eriobotrya japonica, Carica papaya, Citrus \nspp., Fortunella spp. Malus, spp. Morus spp. \nPersea spp. Prunus spp.",
+      "All non-native fruit producing trees (Loquat, Paw \nPaw, Citrus, Kumquat, Apple, Mulberry, Avocado, \nApricot, Almond, Chery, Plum, Peach)"
+     ],
+     [
+      "Eucalyptus nicholii",
+      "Peppermint Gum"
+     ],
+     [
+      "Eucalyptus scoparia",
+      "Wallangarra White Gum"
+     ],
+     [
+      "Erythrina spp",
+      "Coral Tree"
+     ],
+     [
+      "Fraxinus griffithii",
+      "Himalayan Ash/Evergreen Ash/Griffiths Ash"
+     ],
+     [
+      "All Ficus spp. (except F.macrophylla, F. \nrubiginosa, F. coronata)",
+      "All Ficus spp. (except Moreton Bay Fig, Port \nJackson Fig and Sandpaper Fig)"
+     ],
+     [
+      "Gleditsia triacanthos",
+      "Honey Locust"
+     ],
+     [
+      "Grevillea robusta",
+      "Silky Oak"
+     ],
+     [
+      "Harpephyllum caffrum",
+      "Kaffir Plum"
+     ],
+     [
+      "Jacaranda mimosifolia",
+      "Jacaranda"
+     ],
+     [
+      "Lagerstroemia",
+      "Crepe Myrtle"
+     ]
+    ]
+   },
+   {
+    "rows": [
+     [
+      "Liquidambar styraciflua",
+      "Liquidambar"
+     ],
+     [
+      "Ligustrum spp.",
+      "Liquidambar"
+     ],
+     [
+      "Nerium oleander",
+      "Oleander"
+     ],
+     [
+      "Olea spp.",
+      "Olive"
+     ],
+     [
+      "Palms (other than Livistona australis)",
+      "Palms other than Cabbage-tree Palm"
+     ],
+     [
+      "Paraserianthes lophantha",
+      "Crested Wattle"
+     ],
+     [
+      "Pinus spp.",
+      "Pine"
+     ],
+     [
+      "Pittosporum spp. (up to 8m)",
+      "Pittosporum"
+     ],
+     [
+      "Populus spp.",
+      "Poplar"
+     ],
+     [
+      "Pyracantha angustifolia",
+      "Orange Fire Thorn"
+     ],
+     [
+      "Raphiolepis indica",
+      "Indian Hawthorn"
+     ],
+     [
+      "Robinia pseudoacacia",
+      "False Acacia"
+     ],
+     [
+      "Salix spp.",
+      "Willow"
+     ],
+     [
+      "Sapium sebiferum",
+      "Chinese tallow"
+     ],
+     [
+      "Schefflera actinophylla",
+      "Umbrella Tree"
+     ],
+     [
+      "Spathodea campanulata",
+      "African Tulip Tree"
+     ],
+     [
+      "Ulmus parvifolia",
+      "Chinese Elm"
+     ],
+     [
+      "Cupaniopsis anarcardioidies",
+      "Griffiths Ash"
+     ]
+    ]
+   }
+  ],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 6
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/3",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "3 Waste Management"
+  ],
+  "structure": "part",
+  "kind": null,
+  "number": "3",
+  "heading": "Waste Management",
+  "text": "Relevant objectives to satisfy in relation to this paragraph include the following:\n\nTo facilitate sustainable waste management in a manner consistent with the principles of\nEcologically Sustainable Development (ESD).\nEncourage environmentally protective waste management practices on construction and\ndemolition sites which include:\nosorting of waste into appropriate receptors (source separation, reuse and recycling)\nand ensure appropriate storage and collection of waste and to promote quality\ndesign of waste facilities;\noadoption of design standards that complement waste collection and management\nservices offered by Council and private service providers;\nobuilding designs and demolition and construction management techniques which\nmaximises avoidance, reuse and recycling of building materials and which will\nminimise disposal of waste to landfill; and\noappropriately designed waste and recycling receptors are located so as to avoid\nimpact upon surrounding and adjoining neighbours and enclosed in a screened off\narea.\n\nEncourage the ongoing minimisation and management of waste handling in the future use\nof premises.\n\nTo ensure waste storage and collection facilities complement waste collection and\nmanagement services, offered by Council and the private service providers and support on-\ngoing control for such standards and services.\n\nTo minimise risks to health and safety associated with handling and disposal of waste and\nrecycled material, and ensure optimum hygiene.\nTo minimise any adverse environmental impacts associated with the storage and collection\nof waste.\nTo discourage illegal dumping.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "ok",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 10
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/3/Requirement",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "3 Waste Management",
+   "Requirement"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Requirement",
+  "text": "All development that is, or includes, demolition and/or construction, must comply with the\nappropriate sections of the Waste Management Guidelines and all relevant Development\nApplications must be accompanied by a Waste Management Plan.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 11
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/3/Requirement/Time period for notifica",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "3 Waste Management",
+   "Requirement",
+   "Time period for notification over the Christmas/New Year Period"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Time period for notification over the Christmas/New Year Period",
+  "text": "The period between 20 December and 10 January will not be included in the time period for\nnotification/advertising of applications.\nThis does not apply to applications where the EP&A Regulation stipulates a maximum\nnotification/advertising period.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 11
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/3/Requirement/Time period for notifica/Consideration of submiss",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "3 Waste Management",
+   "Requirement",
+   "Time period for notification over the Christmas/New Year Period",
+   "Consideration of submissions"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Consideration of submissions",
+  "text": "All submissions must be made in writing to Council and must reasonably and relevantly relate to the\nsubject of the application.\nAll submissions will be publicly available on Council’s website and may be disclosed to any person\nrequesting information under the Government Information (Public Access) Act 2009.\nPersonal information (eg: phone number, address, name, email address) will be redacted upon\nrequest.\nCouncil will consider requests for a whole submission to be confidential. These requests must\ninclude reasons as to why the submission should not be released online.\nAnonymous correspondence will not be counted as a submission.\nSubmissions received after the end of the notification period will be accepted at the discretion of\nCouncil staff.\nAll submissions received from the same person will be considered as a single submission.\nAll submissions received by or on behalf of the same dwelling will be considered as a single\nsubmission.\nIrrespective of the number of signatories, petitions will be considered as a single submission.\nAny person that lodges a submission will be notified of Council’s determination of the application.\nOnly the organiser of the petition will be notified of Council’s determination of the application.\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 11
+  }
+ },
+ {
+  "id": "warringah_dcp_2000/3/Requirement/Time period for notifica/Consideration of submiss/Appendices",
+  "instrument_id": "warringah_dcp_2000",
+  "path": [
+   "3 Waste Management",
+   "Requirement",
+   "Time period for notification over the Christmas/New Year Period",
+   "Consideration of submissions",
+   "Appendices"
+  ],
+  "structure": "unnumbered",
+  "kind": null,
+  "number": null,
+  "heading": "Appendices",
+  "text": "Appendix 1 - Removal of Tree Tests (as per Appendix 8 in Warringah 2011)\nAppendix 2 - Tree Retention Assessment (as per Appendix 9 in Warringah 2011)\nAppendix 3 - Class 2-9 Buildings (as per Appendix 11 in Warringah 2011)\nAppendix 4 - Tree Protection Plan (as per Appendix 12 in Warringah 2011)\n",
+  "tables": [],
+  "params": {},
+  "former_number": null,
+  "rag_chunk_id": null,
+  "status": "review",
+  "source": {
+   "file": "kb/incoming/warringah-dcp-2000-amend4.pdf",
+   "page": 12
+  }
+ }
+]

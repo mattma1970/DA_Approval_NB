@@ -1,0 +1,19 @@
+# da-tool — .venv-harvest (HTTP layer: mvp/decide.py, mvp/evaluate.py,
+# mvp/factcheck.py now; harvest/ crawls once rebuilt)
+#
+#   python3 -m venv .venv-harvest
+#   .venv-harvest/bin/pip install -r requirements-harvest.txt
+#
+# Requires Python 3.12 (3.12.3 on the reference machine).
+# Direct deps pinned from the working .venv-harvest (2026-09-26);
+# transitive deps (urllib3, charset-normalizer, idna, certifi) float.
+#
+# The mvp pipeline itself only needs `requests` (stdlib otherwise);
+# beautifulsoup4/lxml are here for the harvest/ scrapers.
+
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+
+# Also needed at runtime (not pip-installed): the OpenRouter API key in
+# mvp/.env (chmod 600) — create per machine, do not commit it.

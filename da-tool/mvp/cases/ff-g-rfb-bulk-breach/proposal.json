@@ -1,0 +1,41 @@
+{
+  "case_id": "ff-g-rfb-bulk-breach",
+  "lga": "Warringah",
+  "title": "Demolition and construction of a 4-storey residential flat building (4 dwellings) on a sub-minimum site",
+  "synthetic": true,
+  "applicant": {
+    "name": "Synthetic Development No. 1 Pty Ltd (fictional)"
+  },
+  "site": {
+    "address": "12 Frenchs Forest Road East, Frenchs Forest (fictional)",
+    "lot_dp": "Lot SP12345 DP123456",
+    "zone": "R3 Medium Density Residential (Warringah LEP 2011)",
+    "precinct_site": "Site G, Frenchs Forest Precinct (Part 8)",
+    "area_sqm": 1150,
+    "frontage_m": 32,
+    "lot_dimensions_m": [
+      32.0,
+      35.9
+    ],
+    "road_frontage_m": 9.1
+  },
+  "proposal": {
+    "use": "Residential flat building (4 dwellings)",
+    "storeys": 4,
+    "max_height_m": 13.5,
+    "fsr": 1.4,
+    "site_coverage_pct": 45,
+    "carpark": "Basement, 4 spaces",
+    "demolition": true
+  },
+  "site_specific_dcp": {
+    "present": false,
+    "note": "No site-specific development control plan has been prepared for this site."
+  },
+  "documents": [
+    "documents/site-plan.pdf",
+    "documents/elevation.pdf",
+    "documents/concept.pdf",
+    "documents/design-statement.pdf"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "ff-g-rfb-compliant",
+  "lga": "Warringah",
+  "title": "Demolition and construction of a 3-storey residential flat building (4 dwellings) meeting Part 8 minimums",
+  "synthetic": true,
+  "applicant": {
+    "name": "Synthetic Development No. 1 Pty Ltd (fictional)"
+  },
+  "site": {
+    "address": "18 Frenchs Forest Road East, Frenchs Forest (fictional)",
+    "lot_dp": "Lot SP12347 DP123456",
+    "zone": "R3 Medium Density Residential (Warringah LEP 2011)",
+    "precinct_site": "Site G, Frenchs Forest Precinct (Part 8)",
+    "area_sqm": 1500,
+    "frontage_m": 30,
+    "lot_dimensions_m": [
+      30.0,
+      50.0
+    ],
+    "road_frontage_m": 9.1
+  },
+  "proposal": {
+    "use": "Residential flat building (4 dwellings)",
+    "storeys": 3,
+    "max_height_m": 11.5,
+    "fsr": 0.9,
+    "site_coverage_pct": 35,
+    "carpark": "Basement, 4 spaces",
+    "demolition": true
+  },
+  "site_specific_dcp": {
+    "present": true,
+    "note": "Site-specific development control plan for the site adopted 10 September 2026; record taken at face value."
+  },
+  "documents": [
+    "documents/site-plan.pdf",
+    "documents/elevation.pdf",
+    "documents/concept.pdf",
+    "documents/design-statement.pdf"
+  ]
+}

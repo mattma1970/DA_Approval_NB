@@ -1,0 +1,96 @@
+{
+  "case_id": "ff-g-rfb-bulk-breach",
+  "expected_outcome": "refused",
+  "expected_refusal_grounds": [
+    "s8_4",
+    "s8_6"
+  ],
+  "findings": [
+    {
+      "key": "lut_r3",
+      "provision": "LEP 2011 Pt 2 - Zone R3 Land Use Table",
+      "expected": "permitted_with_consent",
+      "citation_must_contain": "Residential flat buildings",
+      "notes": "RFB is in the 'with development consent' block; not a refusal ground. Trap: a model reading the flattened text as one list might miscall the column."
+    },
+    {
+      "key": "s8_4",
+      "provision": "LEP 2011 8.4 Development control plans",
+      "expected": "precondition_not_met",
+      "citation_must_contain": "development control plan has been prepared",
+      "notes": "REFUSAL GROUND 1: 'must not be granted ... unless a development control plan has been prepared'. No DCP in the record."
+    },
+    {
+      "key": "s8_6",
+      "provision": "LEP 2011 8.6 Minimum site areas",
+      "expected": "contravention",
+      "citation_must_contain": "1,400 square metres",
+      "notes": "REFUSAL GROUND 2: 1,150 m2 < 1,400 m2 for RFB on Site G / R3."
+    },
+    {
+      "key": "s8_7",
+      "provision": "LEP 2011 8.7 Minimum street frontages",
+      "expected": "compliant",
+      "citation_must_contain": "30 metres",
+      "notes": "32 m >= 30 m. Contrast finding: not every Part 8 table bites here."
+    },
+    {
+      "key": "s8_5_4",
+      "provision": "LEP 2011 8.5(4)",
+      "expected": "design_review_required",
+      "citation_must_contain": "higher than 12 metres or 3 storeys",
+      "notes": "13.5 m > 12 m AND 4 storeys > 3: consent must not be granted unless a design review panel has reviewed the development. Process finding."
+    },
+    {
+      "key": "s8_5_design",
+      "provision": "LEP 2011 8.5(2)-(3)",
+      "expected": "indeterminate",
+      "citation_must_contain": "exhibits design excellence",
+      "notes": "SUBJECTIVE: the record contains only the applicant's self-assertion. Correct behaviour: do not affirm or deny; flag for council / design review determination."
+    },
+    {
+      "key": "s4_3",
+      "provision": "LEP 2011 4.3 Height of buildings",
+      "expected": "indeterminate",
+      "citation_must_contain": "Height of Buildings Map",
+      "notes": "DATA GAP: standard is map-referenced; the map is not in the text corpus. Must not invent a number."
+    },
+    {
+      "key": "s4_4",
+      "provision": "LEP 2011 4.4 Floor space ratio",
+      "expected": "indeterminate",
+      "citation_must_contain": "Floor Space Ratio Map",
+      "notes": "DATA GAP: FSR standard is map-referenced."
+    },
+    {
+      "key": "s8_8",
+      "provision": "LEP 2011 8.8 Deep soil zone",
+      "expected": "not_applicable",
+      "citation_must_contain": "Site F",
+      "notes": "TRAP: applies to Site F only; case is Site G. Flagging it is an over-application error."
+    },
+    {
+      "key": "s8_11",
+      "provision": "LEP 2011 8.11 Police station relocation",
+      "expected": "not_applicable",
+      "citation_must_contain": "relocation of the Frenchs Forest Police Station",
+      "notes": "TRAP: applies to the police station site only."
+    },
+    {
+      "key": "s4_6",
+      "provision": "LEP 2011 4.6 Exceptions to development standards",
+      "expected": "not_applicable",
+      "citation_must_contain": "contravene a development standard",
+      "notes": "4.6 flexibility applies to development standards; the Part 8 'must not be granted' gates are consent conditions, so no variation route for them."
+    }
+  ],
+  "determination_enum": [
+    "permitted_with_consent",
+    "compliant",
+    "contravention",
+    "precondition_not_met",
+    "design_review_required",
+    "indeterminate",
+    "not_applicable"
+  ]
+}

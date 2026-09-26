@@ -1,0 +1,96 @@
+{
+  "case_id": "ff-g-rfb-compliant",
+  "expected_outcome": "no_refusal_ground",
+  "expected_refusal_grounds": [],
+  "findings": [
+    {
+      "key": "lut_r3",
+      "provision": "LEP 2011 Pt 2 - Zone R3 Land Use Table",
+      "expected": "permitted_with_consent",
+      "citation_must_contain": "Residential flat buildings",
+      "notes": "RFB permitted with DA in R3."
+    },
+    {
+      "key": "s8_4",
+      "provision": "LEP 2011 8.4 Development control plans",
+      "expected": "compliant",
+      "citation_must_contain": "development control plan has been prepared",
+      "notes": "Site-specific DCP adopted 10/09/2026 - precondition met on the record."
+    },
+    {
+      "key": "s8_6",
+      "provision": "LEP 2011 8.6 Minimum site areas",
+      "expected": "compliant",
+      "citation_must_contain": "1,400 square metres",
+      "notes": "1,500 m2 >= 1,400 m2."
+    },
+    {
+      "key": "s8_7",
+      "provision": "LEP 2011 8.7 Minimum street frontages",
+      "expected": "compliant",
+      "citation_must_contain": "30 metres",
+      "notes": "BOUNDARY TRAP: 30 m exactly meets 'equal to or greater than 30 metres'. Flagging it is an error."
+    },
+    {
+      "key": "s8_5_4",
+      "provision": "LEP 2011 8.5(4)",
+      "expected": "compliant",
+      "citation_must_contain": "higher than 12 metres or 3 storeys",
+      "notes": "BOUNDARY TRAP: 11.5 m < 12 m and 3 storeys is NOT 'higher than 3 storeys'. Trigger not reached. 'not_applicable' (trigger not engaged) is an equally correct labelling of the same conclusion.",
+      "alt_ok": [
+        "not_applicable"
+      ]
+    },
+    {
+      "key": "s8_5_design",
+      "provision": "LEP 2011 8.5(2)-(3)",
+      "expected": "indeterminate",
+      "citation_must_contain": "exhibits design excellence",
+      "notes": "SUBJECTIVE even in the approvable case: design excellence remains a matter for the consent authority; no refusal ground, but the finding should say so, not assert excellence."
+    },
+    {
+      "key": "s4_3",
+      "provision": "LEP 2011 4.3 Height of buildings",
+      "expected": "indeterminate",
+      "citation_must_contain": "Height of Buildings Map",
+      "notes": "DATA GAP: map-referenced."
+    },
+    {
+      "key": "s4_4",
+      "provision": "LEP 2011 4.4 Floor space ratio",
+      "expected": "indeterminate",
+      "citation_must_contain": "Floor Space Ratio Map",
+      "notes": "DATA GAP: map-referenced."
+    },
+    {
+      "key": "s8_8",
+      "provision": "LEP 2011 8.8 Deep soil zone",
+      "expected": "not_applicable",
+      "citation_must_contain": "Site F",
+      "notes": "TRAP: Site F only."
+    },
+    {
+      "key": "s8_11",
+      "provision": "LEP 2011 8.11 Police station relocation",
+      "expected": "not_applicable",
+      "citation_must_contain": "relocation of the Frenchs Forest Police Station",
+      "notes": "TRAP: police station only."
+    },
+    {
+      "key": "s4_6",
+      "provision": "LEP 2011 4.6 Exceptions to development standards",
+      "expected": "not_applicable",
+      "citation_must_contain": "contravene a development standard",
+      "notes": "No standard contravention on the record, so no 4.6 request needed."
+    }
+  ],
+  "determination_enum": [
+    "permitted_with_consent",
+    "compliant",
+    "contravention",
+    "precondition_not_met",
+    "design_review_required",
+    "indeterminate",
+    "not_applicable"
+  ]
+}
