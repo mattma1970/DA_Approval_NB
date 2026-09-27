@@ -22,5 +22,13 @@ da-tool/kb/incoming/*
 da-tool/kb/incoming/eplanning/*
 !da-tool/kb/incoming/eplanning/*.json
 
-# scratch
-:memory:.ses/
+# scratch (file, not dir — no trailing slash)
+:memory:.ses
+
+# editor swap files (vim)
+*.swp
+*.swo
+*.swn
+.*.swp
+.*.swo
+.*.swn

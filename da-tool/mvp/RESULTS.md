@@ -132,6 +132,18 @@ in `report.json` (`fact_checks`) for audit.
   (e.g. "8.5(4)-(5)" → s8_5_4). All three need replacing with structured
   mapping in Phase 1.
 
+* **Scope of this verdict (added 2026-09-26, after the user raised the
+  bespoke-bake-in risk):** the verdicts above are *architecture-level* —
+  they survive re-implementation of the extraction and ingestion
+  layers. They do **not** validate the *implementation*: the regex value
+  extraction (now marked `# BRIDGE:` with kill-criteria in
+  `mvp/factcheck.py`), the KB data model, the hand-picked 12-clause
+  selection, or the in-sample synthetic cases. The portability test
+  (README backlog #8: same layers, second un-curated instrument, no
+  edits to `factcheck.py`) is the experiment that settles whether the
+  implementation generalises; until it passes, implementation decisions
+  are scoped to `warringah_lep_2011`.
+
 ## Architecture decision (user, 2026-09-26)
 
 * **All LLM calls made by the tool code go through OpenRouter**

@@ -20,6 +20,18 @@ check reports "not evaluated" instead of guessing.
 The rendered fact list is injected into the adjudication prompt so the
 model works from verified facts (this is what eliminates the one failure
 class both dev models kept producing: misreading the 8.5(4) boundary).
+
+BRIDGE CODE — house rule 6 (see README): everything below is
+*implementation-scoped to the warringah_lep_2011 KB shape and our
+crawler's rendering of it* (flattened tables, thresholds embedded in
+prose). It is not a strategy for the final product. Kill-criteria:
+(a) ingest v2 exposing thresholds/tables as typed fields replaces the
+regexes with field reads and these checks shrink to reading fields;
+(b) the portability test (README backlog #8) breaking parsing on a
+second instrument is a finding against the *ingestion layer*, not a
+justification for more regex here. Until then this file fails loud:
+any unrecognised structure yields NOT_EVALUATED, never a guessed
+value.
 """
 from __future__ import annotations
 
@@ -122,6 +134,8 @@ def check_lut(kb: list, proposal: dict) -> dict:
              "prohibited"]
     out = {"ref": "LUT-R3", "name": "land use table block",
            "inputs": {"use": use, "zone": "R3"}}
+    # BRIDGE: positional block identity (the crawl dropped the LUT
+    # column headers); kill when ingest v2 names the blocks explicitly.
     if len(blocks) != 3 or not blocks[-1].startswith(
             "Any development not specified"):
         out["result"] = "NOT_EVALUATED"
@@ -158,6 +172,9 @@ def check_s8_4(proposal: dict) -> dict:
 
 def check_s8_5_4(kb: list, proposal: dict) -> dict:
     p = _provision(kb, 15888)
+    # BRIDGE: parses the threshold out of provision prose; real
+    # instruments word it many ways. Kill when ingest v2 exposes
+    # thresholds as structured fields.
     m = re.search(r"higher than\s+([\d.]+)\s+metres?\s+or\s+(\d+)\s+storeys?",
                   p["text"] or "", re.I)
     if not m:
@@ -200,6 +217,8 @@ def check_min_table(kb: list, proposal: dict, hid: int,
     zone = _zone_code(proposal)
     use = _use_name(proposal)
     value = float(proposal["site"][field])
+    # BRIDGE: assumes 4-column rows [site, zone, use, minimum]; kill
+    # when ingest v2 types the table columns.
     for r in rows[1:]:  # skip header
         if len(r) < 4 or not _match_zone(r[0], site) \
                 or not _match_zone(r[1], zone) \

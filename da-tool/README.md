@@ -15,6 +15,12 @@ Regulations are versioned data, never hard-coded.
 > 4. Every work session ends with "here's what you can try in two
 >    minutes".
 > 5. One file, one job, stable name. The layout *is* the API.
+> 6. **Bespoke code is a bridge, never a foundation.** It carries a
+>    `# BRIDGE:` marker with a kill-criterion (what would make it
+>    unnecessary or wrong), and it becomes permanent only when
+>    promoted into the general layer *with tests*. Decisions are
+>    scope-tagged: *arch* (survives re-implementation) vs *impl*
+>    (valid only for the current data shape).
 
 ## The approach: four layers
 
@@ -59,6 +65,27 @@ deterministic fact layer, now in place).
 | Evaluation harness (Phase 3) | pending — MVP has a mini version (`mvp/evaluate.py`) |
 | Vision (DA drawings) | stretch — text-only so far (this deployment has no image input) |
 
+## What the verdict actually covers (validated vs assumed)
+
+The 2026-09-26 MVP verdict ("a 27B–70B-class model + machine
+verification can adjudicate a DA case with real citations") is an
+**architecture** verdict: it holds regardless of how values are
+extracted or which KB is used. It does **not** validate the
+**implementation**:
+
+| Assumed, not yet validated | Why it's risky |
+|---|---|
+| The KB data model (flattened tables, positional LUT blocks, `hNNNNN` ids) | built to fit our crawler; verified on our 9 instruments only |
+| Regex extraction of values from provision prose (the fact layer) | marked `# BRIDGE:` in `mvp/factcheck.py`; validated on 5 clauses of one instrument. Fails *loud* (`NOT_EVALUATED`), never *wrong* — but "no answer" ≠ "works on real data" |
+| **Which provisions apply to a case** — the 12-clause block list is hand-picked to fit the Frenchs Forest case | the biggest unvalidated gap in the final product: picking applicable provisions out of 1,316 is unsolved and out of MVP scope |
+| The synthetic-case scores themselves | the cases were designed by us, to fit our own parser (in-sample) |
+
+The experiment that actually answers "does it work on a real
+application": **backlog #8, the portability test** — run the same
+layers end-to-end on a second, un-curated instrument *without
+editing `factcheck.py`*. Until that passes, implementation-level
+decisions are scoped to `warringah_lep_2011`.
+
 ## The data — what's on disk
 
 | Where | What | Size | Status |
@@ -101,13 +128,17 @@ deterministic fact layer, now in place).
 
 ## Decision log (your calls — binding)
 
-| Date | Decision |
-|---|---|
-| 2026-09 | The local Qwen3.8-27B GGUF is *this agent's own* model → it can never be the model under test (circular validation). Enforced as a hard guard in `mvp/llm.py` (`excluded_models`). |
-| 2026-09-26 | **All LLM calls made by the tool code go through OpenRouter** (your account; $6 credit; $4 hard cap in `mvp/config.json`; actual spend ≈$0.023). Local models stay out of the loop. |
-| 2026-09 | Synthetic cases only until a real data source exists (Data Broker API or public register); the public register is parked, not dropped. |
-| 2026-09 | Text-only first; vision on DA drawings is a stretch goal (also blocked: this deployment has no image input). |
-| standing | Never touch the 2026-09-25 crawl artifacts. Never amend the Data Broker email. No Phase-1 rules without your explicit go-ahead. |
+Scope: **arch** = survives re-implementation; **impl** = valid only
+for the current data shape; **data** = valid only for this KB snapshot.
+
+| Date | Decision | Scope |
+|---|---|---|
+| 2026-09 | The local Qwen3.8-27B GGUF is *this agent's own* model → it can never be the model under test (circular validation). Enforced as a hard guard in `mvp/llm.py` (`excluded_models`). | arch |
+| 2026-09-26 | **All LLM calls made by the tool code go through OpenRouter** (your account; $6 credit; $4 hard cap in `mvp/config.json`; actual spend ≈$0.023). Local models stay out of the loop. | arch |
+| 2026-09 | Synthetic cases only until a real data source exists (Data Broker API or public register); the public register is parked, not dropped. | data |
+| 2026-09 | Text-only first; vision on DA drawings is a stretch goal (also blocked: this deployment has no image input). | arch |
+| standing | Never touch the 2026-09-25 crawl artifacts. Never amend the Data Broker email. No Phase-1 rules without your explicit go-ahead. | arch + data |
+| 2026-09-26 | **Bridge protocol** (house rule 6): bespoke code gets a `# BRIDGE:` marker + kill-criterion; decisions are scope-tagged; the portability test (backlog #8) is the gate an implementation must pass before it may be treated as general. | arch |
 
 ## Try it yourself — the verification ladder
 
@@ -182,3 +213,12 @@ state it says it's in.
    rules from the design doc)
 6. Phase 3: golden-set evaluation harness over `config/golden-set-spec.yaml`
 7. Stretch: vision on DA drawings once a vision-capable path exists
+8. **Portability test** — the answer to "does this work on a real
+   application": parameterise `KB_PATH` (small, safe), then re-ingest a
+   second, un-curated instrument (`pittwater21_dcp` or `manly_lep_2013`)
+   end-to-end through `kb/` and run the fact layer + `decide`/`evaluate`
+   on cases drawn from it **without editing `factcheck.py`**. Any
+   `# BRIDGE:` that breaks here is evidence for ingest v2 (typed
+   fields, named LUT blocks), not for more regex. Add *hostile* golden
+   cases designed to break bridges (odd threshold phrasings, missing
+   fields, other zones)
